@@ -1,0 +1,143 @@
+/**
+ * WPTM Dashboard 
+ * 
+ * @package wptm.admin.assets.css
+ * @since wptm 1.0.0
+ */
+
+#wptm-impoter{
+    width: 70%;
+}
+.wptm-container{
+    display: block;
+    min-width: 500px;
+    min-height: 600px;
+}
+.wptm-clear{
+    clear: both;
+}
+/* WPTM Head*/
+.wptm-head{
+    border: 1px solid #cccccc;   
+    background: #fafafa none repeat scroll 0 0;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: block;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+.wptm-head .wptm-col.left {
+    float: left;
+}
+.wptm-head .wptm-col.right {
+    float: right;
+}
+.wptm-head .right .site{
+    float: right;
+    cursor: pointer;
+    font-size: 25px; 
+}
+.wptm-head .right .wptm-site-link:hover ul.sub{
+    float: right;
+    visibility: visible;
+}
+.wptm-head .right ul.sub{
+    float: left;
+    visibility: hidden;
+}
+.wptm-head .right ul.sub li{
+    float: left;
+    /*border-right: 1px solid #aaaaaa;*/
+}
+.wptm-head .right ul.sub li a{
+    /*padding:0px 5px;*/
+    display: block;
+    line-height: 1.5;   
+    text-decoration: none;
+}
+.wptm-head .right ul.sub li a:after{
+    color: #aaa;
+    content: "|";
+    font-weight: bold;
+    padding: 0 10px;
+    text-decoration: none;    
+}
+.wptm-head .right ul.sub li.last a:after{
+    content: none;
+    padding:10px;
+}
+.wptm-head .right ul.sub li.last{
+    padding-right: 15px;
+}
+/*WPTM BODY*/
+.wptm-body{
+    border-right: 1px solid #cccccc;   
+    border-left: 1px solid #cccccc;   
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: block;
+    overflow: auto;
+    padding: 5px 20px;
+    min-height: 600px;
+    
+}
+/*WPTM TABLE*/
+.wptm-status-table{
+     background: #fff none repeat scroll 0 0;
+     border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      border-spacing: 0;
+    clear: both;
+    margin: 0;
+    width: 100%;
+}
+.wptm-status-table th{
+     line-height: 1.4em;
+     border-bottom: 1px solid #e1e1e1;
+     font-weight: 400;
+     font-size: 14px;
+     text-align: left;
+       padding: 8px 10px;
+}
+.wptm-status-table td{
+    color: #555;
+     line-height: 1.5em;
+     font-size: 13px;
+     text-align: left;
+       padding: 8px 10px;
+        vertical-align: top;
+}
+
+/*Dashbord Info*/
+.wptm-dashboard-info{
+    padding: 20px 5px;
+}
+.wptm-dashboard-info b{
+    
+}
+.wptm-dashboard-info p{
+    color: #777;
+    margin-top: 4px;    
+}
+.wptm-dashboard-info ul{
+    /*list-style:circle*/
+    color: #777;
+    padding-left:20px;
+}
+a.wptm-rate-this{
+    text-decoration: none;
+}
+a.wptm-rate-this span{
+    color: gold;
+    
+}
+/*WPTM FOOTER*/
+.wptm-footer{
+    border: 1px solid #cccccc;   
+    background: #fafafa none repeat scroll 0 0;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: block;
+    overflow: auto;
+    padding: 5px 20px;
+    
+}

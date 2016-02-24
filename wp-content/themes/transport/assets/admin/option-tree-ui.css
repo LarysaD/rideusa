@@ -1,0 +1,335 @@
+/*
+ Theme Option UI
+ @package: attorney
+ @subpackage: assets/admin/
+ @version: 1.2
+ -------------------------*/
+.attorney-themes .theme-actions .button .icon{
+	font-family: "option-tree-font";
+	font-style: normal;
+}
+.ot-icon-eye:before {
+  content: "\f06e";
+}
+.ot-icon-info:before {
+  content: "\f129";
+}
+.ot-icon-edit:before {
+  content: "\f044";
+}
+.ot-icon-trash-o:before {
+  content: "\f014";
+}
+
+#page-ot_theme_options {
+	width: 70%;
+}
+#option-tree-settings-api {
+	font-family: 'Open Sans', sans-serif;
+}
+#page-ot_theme_options #option-tree-settings-api > .ui-tabs {
+	padding-top: 17px;
+	margin-left: 0;
+	margin-right: 0;
+	box-shadow: 218px 0 0 #f9f9f9 inset;
+	border-right: 1px solid #cccccc;
+	padding-bottom: 0;
+}
+#page-ot_theme_options .wrap.settings-wrap .ui-tabs-nav {
+	margin: 0;
+}
+#page-ot_theme_options #option-tree-version {
+	display: none;
+}
+#page-ot_theme_options #option-tree-header {
+	background: #bbbbbb;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	min-width: 100px;
+	width: 219px;
+}
+#page-ot_theme_options #option-tree-header li {
+	color: #fff;
+	line-height: 90px;
+	width: 100%;
+	font-size: 30px;
+	font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+	text-align: center;
+}
+#page-ot_theme_options #option-tree-logo {
+	color: #bbbbbb;
+}
+#page-ot_theme_options #option-tree-settings-api {
+	clear: both;
+}
+#page-ot_theme_options #option-tree-sub-header {
+	padding: 7px 5px;
+	border-top: 1px solid #cccccc;
+	margin: 0;
+}
+#page-ot_theme_options #option-tree-header-wrap {
+	float: left;
+	margin-bottom: -89px;
+	margin-top: 10px;
+	z-index: 3;
+}
+#page-ot_theme_options .option-tree-ui-button.button {
+	font-size: 13px !important;
+	height: 33px !important;
+	padding: 0 12px !important;
+	line-height: 28px !important;
+}
+#page-ot_theme_options #option-tree-header li#option-tree-logo:hover {
+	background-color: transparent;
+	border-top-left-radius: 0px;
+	color: #fff;
+}
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav {
+	width: 217px !important;
+	margin: 0;
+}
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a {
+	padding: 12px 5px 12px 15px;
+}
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li {
+	border: 1px solid #cccccc;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 600;
+}
+#option-tree-settings-api #poststuff {
+	border-left: 1px solid #cccccc;
+	margin-top: 13px;
+	padding-bottom: 60px;
+	padding-top: 0;
+	min-height: 500px;
+}
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a {
+	color: #666666;
+	font-size: 12px;
+	line-height: 20px;
+}
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a:active, #page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a:focus {
+	background: #fff;
+	outline: none;
+	box-shadow: none;
+}
+#page-ot_theme_options .ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active {
+	width: 100.5%;
+}
+#page-ot_theme_options .option-tree-ui-button.button.button-secondary.reset-settings {
+	margin: 3px;
+	display: none;
+}
+#page-ot_theme_options .option-tree-ui-buttons:before {
+	background: #f9f9f9;
+	height: 68px;
+	left: 0px;
+	position: absolute;
+	top: -1px;
+	visibility: visible;
+	width: 217px;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+}
+#page-ot_theme_options .option-tree-ui-buttons {
+	margin: -55px 0 0;
+	border-left: none;
+}
+#page-ot_theme_options #setting-error-tgmpa {
+	margin: 9px 0px 0 0px !important;
+        display: block;
+        clear: both;
+}
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a i {
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 15px;
+}
+.attorney-hint {
+	cursor: pointer;
+}
+.attorney-tooltip {
+	margin: 8px;
+	padding: 8px;
+	border: 1px solid blue;
+	background-color: yellow;
+	position: absolute;
+	z-index: 2;
+}
+#page-ot_theme_options #option-tree-settings-api > .ui-tabs:after {
+	background: #f9f9f9;
+	bottom: 53px;
+	content: "";
+	height: 1px;
+	left: 0;
+	position: absolute;
+	width: 217px;
+	z-index: 4;
+}
+#poststuff h3.ad-secttings-section {
+	margin: 10px 0 30px;
+	padding: 0;
+	background: #f9f9f9;
+	height: 10px;
+}
+#poststuff h3.ad-secttings-section span {
+	font-size: 23px;
+	font-weight: 400;
+	background-color: #ffffff;
+	line-height: 1em;
+	padding: 0 15px;
+	position: relative;
+	top: -10px;
+}
+#poststuff .format-setting-wrap {
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 9px;
+}
+#poststuff .format-setting-label {
+	border-bottom: none;
+	margin-bottom: 0px;
+	float: left;
+	width: 35%;
+}
+#poststuff .format-setting {
+	overflow: visible;
+	display: inline-block;
+}
+#poststuff .format-setting .description {
+	float: left;
+	font-size: 13px;
+	color: #999999;
+}
+#poststuff .format-setting .format-setting-inner {
+	margin-top: 0;
+}
+#poststuff h3.label {
+	color: #666666 !important;
+	font-size: 12px !important;
+	font-weight: 700 !important;
+	padding-bottom: 0 !important;
+}
+.format-setting-inner input {
+	background-color: #ffffff !important;
+	border: 1px solid #cccccc !important;
+	border-radius: 3px !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) inset !important;
+	margin: 0 !important;
+	padding: 6px 10px !important;
+	color: #666666 !important;
+	font-size: 14px !important;
+	font-weight: 400;
+}
+.format-setting-inner select.option-tree-ui-select, .format-setting-inner .wp-picker-container input.wp-color-picker[type="text"], .format-setting-inner .select-wrapper span {
+	color: #666666 !important;
+	font-size: 14px !important;
+	font-weight: 400;
+}
+.format-setting-inner .wp-color-result:after, .format-setting-inner .wp-picker-container input.wp-color-picker[type="text"] {
+	color: #666666 !important;
+	font-size: 14px !important;
+	font-weight: 400;
+}
+.format-setting-inner .wp-picker-container input.wp-color-picker[type="text"] {
+	font-family: 'Open Sans', sans-serif;
+	width: 86px;
+}
+.format-setting-inner .wp-picker-input-wrap .wp-picker-clear {
+	padding: 1px 9px !important;
+	margin-left: 5px !important;
+}
+#page-ot_theme_options.wrap.settings-wrap div.updated {
+	margin-right: 0 !important;
+}
+.attorney-tooltip {
+	border: 1px solid #333333;
+	background: #333333;
+	color: #fff;
+	font-size: 12px;
+	padding: 7px 10px;
+	border-radius: 5px;
+}
+.attorney-oneclick-wrap .ot-icon-hand-o-right {
+	margin-right: 5px;
+}
+.attorney-oneclick-ul li {
+	width: 75%;
+	margin-bottom: 10px;
+}
+.attorney-oneclick-ul li i {
+	float: right !important;
+	width: 13px !important;
+}
+#page-ot_theme_options input.option-tree-ui-upload-input, #page-ot_theme_options .option-tree-ui-image-wrap {
+	width: 100% !important;
+}
+#page-ot_theme_options .ot_upload_media span, #page-ot_theme_options .option-tree-ui-remove-media.button span {
+	/*display: none;*/
+}
+#page-ot_theme_options .ot_upload_media.button, #page-ot_theme_options .option-tree-ui-remove-media.button {
+	text-align: center !important;
+	/*text-indent: 0 !important;*/
+	width: 43px;
+	height: 30px !important;
+	line-height: 28px !important;
+	margin: 0;
+	padding: 0 12px;
+	background: #f7f7f7;
+	border-color: #cccccc;
+	box-shadow: 0 1px 0 #ffffff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+	color: #555555;
+}
+#page-ot_theme_options .ot_upload_media:hover, #page-ot_theme_options .ot_upload_media:focus, #page-ot_theme_options .ot_upload_media:active, #page-ot_theme_options .option-tree-ui-remove-media.button:hover, #page-ot_theme_options .option-tree-ui-remove-media.button:focus, #page-ot_theme_options .option-tree-ui-remove-media.button:active {
+	background: #fafafa;
+	border-color: #999999;
+	color: #23282d;
+}
+#page-ot_theme_options .format-setting-inner .option-tree-ui-button .icon{
+		color: #2ea2cc;
+}
+
+.option-tree-save-layout{
+    display: none;
+}
+
+#setting_attorney_4header .type-radio-image.has-desc  .description, #setting_attorney_4footer .type-radio-image.has-desc  .description{
+    float: none;
+     margin-bottom: 20px;
+}
+html body .format-setting .format-setting-inner, html body .type-radio-image .option-tree-ui-radio-images {
+    width: 100%;
+}
+html body .format-setting .format-setting-inner .option-tree-ui-radio-images img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+#poststuff .format-setting .description {
+    width: 100%;
+}
+#setting_transport_home_layout .option-tree-ui-radio-images, #section_transport_blog_layout  .option-tree-ui-radio-images {
+    float: left;
+    width: auto;
+}
+/*#setting_transport_footer_background .format-setting-inner .ot-background-group > div,
+#setting_transport_footer_background .format-setting-inner .ot-background-group > div > span
+{
+    display: block;
+    float: none;
+    clear: both;
+}*/
+#transport_footer_background-size {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+#page-ot_theme_options .postbox {
+    min-height: 750px;
+}

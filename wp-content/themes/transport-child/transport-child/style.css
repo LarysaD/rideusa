@@ -1,0 +1,45 @@
+/*
+ Template: transport
+ Theme Name: Transport Child
+ Theme URI: http://theemon.com/
+ Description: Transport Child Theme
+ Author: Theemon WordPress Team
+ Author URI: http://theemon.com/
+ Version: 1.0.0
+ Tags: custom-colors,custom-header,full-width-template,post-formats,sticky-post,theme-options
+ Text Domain: transport-child
+*/
+
+
+.footer {
+	padding: 0!important;
+}
+
+.about-us-page .features-text > p {
+	margin-bottom: 30px!important;
+}
+.primary-header, .transport, .shipping {
+	display: none!important;
+}
+
+.heading h3 {
+	padding-bottom: 0px!important;
+	margin-bottom: 15px!important;
+}
+.amazing-text p {
+	margin-bottom: 10px!important;
+}
+
+.banner-text.slider-one h2 {
+	line-height: 37px!important;
+	font-size: 33px!important;
+}
+
+.faq .head-wrap {
+	height: 235px!important;
+}
+
+ul, ol {
+	list-style-position: inside;
+	font-size: 14px;
+}

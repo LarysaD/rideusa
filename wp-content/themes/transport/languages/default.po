@@ -1,0 +1,2643 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Transport 1.0.0\n"
+"POT-Creation-Date: 2015-10-15 19:37+0530\n"
+"PO-Revision-Date: 2015-10-15 19:39+0530\n"
+"Last-Translator: \n"
+"Language-Team: Theemon WordPress Team <support@theemon.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_e;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: single-service.php:56 content/location-slider.php:15
+msgid "more"
+msgstr ""
+
+#: single-service.php:57
+msgid "services"
+msgstr ""
+
+#: tag.php:22 inc/blog-layout.php:79
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: single.php:32
+msgid "Author"
+msgstr ""
+
+#: author.php:22
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: comments.php:16 vc_templates/tr_news_layout_one.php:57
+#: vc_templates/tr_news_layout_two.php:54 inc/blog-layout.php:42
+msgid "comments"
+msgstr ""
+
+#: comments.php:23
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:24
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:25
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:45
+msgid "Leave comment"
+msgstr ""
+
+#: comments.php:46 woocommerce/single-product-reviews.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:47
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:48
+msgid "SUBMIT"
+msgstr ""
+
+#: comments.php:53
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:57
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: image.php:21
+#, php-format
+msgid "<span>%s</span><h3>%s</h3>"
+msgstr ""
+
+#: transport-coming-soon.php:39
+msgid "under construction"
+msgstr ""
+
+#: search.php:22 inc/blog-layout.php:75
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: 404.php:36
+msgid "back to home page"
+msgstr ""
+
+#: category.php:22 inc/blog-layout.php:77
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: transport-faq.php:49
+msgid "Q"
+msgstr ""
+
+#: content/none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: content/none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content/none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: content/none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content/location-slider.php:16
+msgid "locations"
+msgstr ""
+
+#: content/location-slider.php:47
+msgid "call :"
+msgstr ""
+
+#: content/location-slider.php:53 inc/widgets/contact-info-widget.php:55
+msgid "email :"
+msgstr ""
+
+#: content/format/quote.php:74 vc_templates/tr_services_layout_two.php:47
+#: vc_templates/tr_services_layout_four.php:66
+#: vc_templates/tr_services_layout_one.php:46
+#: vc_templates/tr_services_layout_three.php:47 inc/blog-layout.php:56
+msgid "read more"
+msgstr ""
+
+#: content/header/header-two.php:64 content/header/header-one.php:72
+msgid "CALL US NOW FOR <br /> YOUR TRANSPORT"
+msgstr ""
+
+#: content/header/header-two.php:80 content/header/header-one.php:40
+msgid "request a quote"
+msgstr ""
+
+#: content/header/header-one.php:25
+msgid "Email us at :"
+msgstr ""
+
+#: vc_templates/tr_services_layout_five.php:38
+#: vc_templates/tr_services_layout_four.php:36
+msgid "SERVICES"
+msgstr ""
+
+#: vc_templates/tr_news_layout_one.php:25
+#: vc_templates/tr_news_layout_two.php:26
+msgid "LATEST NEWS"
+msgstr ""
+
+#: vc_templates/tr_news_layout_one.php:57
+#: vc_templates/tr_news_layout_two.php:54 inc/blog-layout.php:42
+msgid "comment"
+msgstr ""
+
+#: vc_templates/tr_services_layout_two.php:25
+#: vc_templates/tr_services_layout_one.php:24
+#: vc_templates/tr_services_layout_three.php:25
+msgid "OUR SERVICES"
+msgstr ""
+
+#: vc_templates/tr_features_layout_extended.php:34
+#: vc_templates/tr_features_layout_one.php:46
+msgid "our services"
+msgstr ""
+
+#: vc_templates/tr_have_a_question.php:28
+#: vc_templates/tr_about_section_layout_two.php:33 inc/blog-layout.php:141
+msgid "contact us"
+msgstr ""
+
+#: vc_templates/tr_testimonial_layout_one.php:25
+#: vc_templates/tr_our_team.php:26
+msgid "testimonials"
+msgstr ""
+
+#: vc_templates/tr_testimonial_layout_two.php:34
+msgid "what people say about transport"
+msgstr ""
+
+#: vc_templates/tr_free_quote.php:22
+msgid "get a free quote"
+msgstr ""
+
+#: vc_templates/tr_services_layout_banner.php:27
+msgid "more services"
+msgstr ""
+
+#: vc_templates/tr_simple_content.php:35
+#: vc_templates/tr_about_section_layout_one.php:33
+msgid "ABOUT TRANSPORT KING"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:29
+#: vc_templates/vc-map/tr_services_layout_five.php:34
+msgid "Transport Services Layout Five"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:40
+#: vc_templates/vc-map/tr_news_layout_one.php:28
+#: vc_templates/vc-map/tr_services_layout_two.php:27
+#: vc_templates/vc-map/tr_features_layout_extended.php:30
+#: vc_templates/vc-map/tr_banner.php:37
+#: vc_templates/vc-map/tr_have_a_question.php:29
+#: vc_templates/vc-map/tr_features_layout_two_wrap.php:32
+#: vc_templates/vc-map/tr_testimonial_layout_one.php:27
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:37
+#: vc_templates/vc-map/tr_our_team.php:28
+#: vc_templates/vc-map/tr_free_quote.php:28
+#: vc_templates/vc-map/tr_features_layout_one.php:28
+#: vc_templates/vc-map/tr_news_layout_two.php:28
+#: vc_templates/vc-map/tr_services_layout_four.php:40
+#: vc_templates/vc-map/tr_simple_content.php:36
+#: vc_templates/vc-map/tr_features_layout_two.php:28
+#: vc_templates/vc-map/tr_about_section_layout_one.php:37
+#: vc_templates/vc-map/tr_about_section_layout_two.php:28
+#: vc_templates/vc-map/tr_services_layout_one.php:27
+#: vc_templates/vc-map/tr_services_layout_three.php:28
+msgid "Enter Main Title"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:43
+#: vc_templates/vc-map/tr_news_layout_one.php:31
+#: vc_templates/vc-map/tr_services_layout_two.php:30
+#: vc_templates/vc-map/tr_features_layout_extended.php:33
+#: vc_templates/vc-map/tr_banner.php:40
+#: vc_templates/vc-map/tr_have_a_question.php:32
+#: vc_templates/vc-map/tr_features_layout_two_wrap.php:35
+#: vc_templates/vc-map/tr_testimonial_layout_one.php:30
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:40
+#: vc_templates/vc-map/tr_our_team.php:31
+#: vc_templates/vc-map/tr_free_quote.php:31
+#: vc_templates/vc-map/tr_features_layout_one.php:31
+#: vc_templates/vc-map/tr_news_layout_two.php:31
+#: vc_templates/vc-map/tr_services_layout_four.php:43
+#: vc_templates/vc-map/tr_simple_content.php:39
+#: vc_templates/vc-map/tr_features_layout_two.php:31
+#: vc_templates/vc-map/tr_about_section_layout_one.php:40
+#: vc_templates/vc-map/tr_about_section_layout_two.php:31
+#: vc_templates/vc-map/tr_services_layout_one.php:30
+#: vc_templates/vc-map/tr_services_layout_three.php:31
+msgid "Section main title."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:49
+#: vc_templates/vc-map/tr_news_layout_one.php:37
+#: vc_templates/vc-map/tr_services_layout_two.php:36
+#: vc_templates/vc-map/tr_features_layout_extended.php:39
+#: vc_templates/vc-map/tr_have_a_question.php:38
+#: vc_templates/vc-map/tr_features_layout_two_wrap.php:41
+#: vc_templates/vc-map/tr_testimonial_layout_one.php:36
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:46
+#: vc_templates/vc-map/tr_our_team.php:37
+#: vc_templates/vc-map/tr_features_layout_one.php:37
+#: vc_templates/vc-map/tr_news_layout_two.php:37
+#: vc_templates/vc-map/tr_services_layout_four.php:49
+#: vc_templates/vc-map/tr_simple_content.php:45
+#: vc_templates/vc-map/tr_features_layout_two.php:37
+#: vc_templates/vc-map/tr_about_section_layout_one.php:46
+#: vc_templates/vc-map/tr_about_section_layout_two.php:37
+#: vc_templates/vc-map/tr_services_layout_one.php:36
+#: vc_templates/vc-map/tr_services_layout_three.php:37
+msgid "Enter Sub Title"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:52
+#: vc_templates/vc-map/tr_news_layout_one.php:40
+#: vc_templates/vc-map/tr_services_layout_two.php:39
+#: vc_templates/vc-map/tr_features_layout_extended.php:42
+#: vc_templates/vc-map/tr_have_a_question.php:41
+#: vc_templates/vc-map/tr_features_layout_two_wrap.php:44
+#: vc_templates/vc-map/tr_testimonial_layout_one.php:39
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:49
+#: vc_templates/vc-map/tr_our_team.php:40
+#: vc_templates/vc-map/tr_features_layout_one.php:40
+#: vc_templates/vc-map/tr_news_layout_two.php:40
+#: vc_templates/vc-map/tr_services_layout_four.php:52
+#: vc_templates/vc-map/tr_simple_content.php:48
+#: vc_templates/vc-map/tr_features_layout_two.php:40
+#: vc_templates/vc-map/tr_about_section_layout_one.php:49
+#: vc_templates/vc-map/tr_about_section_layout_two.php:40
+#: vc_templates/vc-map/tr_services_layout_one.php:39
+#: vc_templates/vc-map/tr_services_layout_three.php:40
+msgid "Section sub title."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:58
+#: vc_templates/vc-map/tr_services_layout_banner.php:47
+msgid "Enter Description"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:61
+msgid "Section Description."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:67
+#: vc_templates/vc-map/tr_services_layout_five.php:77
+#: vc_templates/vc-map/tr_services_layout_five.php:87
+#: vc_templates/vc-map/tr_services_layout_four.php:58
+#: vc_templates/vc-map/tr_services_layout_four.php:68
+#: vc_templates/vc-map/tr_services_layout_four.php:78
+msgid "Select Post"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:71
+#: vc_templates/vc-map/tr_services_layout_four.php:62
+msgid "Select Post One."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:81
+#: vc_templates/vc-map/tr_services_layout_four.php:72
+msgid "Select Post Two."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_five.php:91
+#: vc_templates/vc-map/tr_services_layout_four.php:82
+msgid "Select Post Three."
+msgstr ""
+
+#: vc_templates/vc-map/tr_feature.php:17
+#: vc_templates/vc-map/tr_features_layout_one.php:17
+msgid "Transport Features Section"
+msgstr ""
+
+#: vc_templates/vc-map/tr_feature.php:23
+#: vc_templates/vc-map/tr_features_layout_two_item.php:22
+#: vc_templates/vc-map/tr_features_layout_one.php:22
+msgid "Transport Features Section."
+msgstr ""
+
+#: vc_templates/vc-map/tr_feature.php:28
+#: vc_templates/vc-map/tr_features_layout_two_item.php:27
+msgid "Feature Icon"
+msgstr ""
+
+#: vc_templates/vc-map/tr_feature.php:31
+#: vc_templates/vc-map/tr_features_layout_two_item.php:30
+msgid "Feature Icon."
+msgstr ""
+
+#: vc_templates/vc-map/tr_feature.php:36
+#: vc_templates/vc-map/tr_features_layout_two_item.php:35
+msgid "Feature Title"
+msgstr ""
+
+#: vc_templates/vc-map/tr_feature.php:39
+#: vc_templates/vc-map/tr_features_layout_two_item.php:38
+msgid "Feature Title."
+msgstr ""
+
+#: vc_templates/vc-map/tr_feature.php:44
+#: vc_templates/vc-map/tr_features_layout_two_item.php:43
+msgid "Feature Content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_feature.php:47
+#: vc_templates/vc-map/tr_features_layout_two_item.php:46
+msgid "Feature Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_news_layout_one.php:17
+#: vc_templates/vc-map/tr_news_layout_one.php:22
+msgid "Transport News"
+msgstr ""
+
+#: vc_templates/vc-map/tr_news_layout_one.php:46
+#: vc_templates/vc-map/tr_testimonial_layout_one.php:45
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:55
+#: vc_templates/vc-map/tr_our_team.php:46
+#: vc_templates/vc-map/tr_news_layout_two.php:46
+msgid "Enter No. of items"
+msgstr ""
+
+#: vc_templates/vc-map/tr_news_layout_one.php:49
+#: vc_templates/vc-map/tr_testimonial_layout_one.php:48
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:58
+#: vc_templates/vc-map/tr_our_team.php:49
+#: vc_templates/vc-map/tr_news_layout_two.php:49
+msgid "No. of items."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_two.php:16
+#: vc_templates/vc-map/tr_services_layout_two.php:21
+msgid "Transport Services Carousel Two"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_two.php:45
+#: vc_templates/vc-map/tr_services_layout_one.php:45
+#: vc_templates/vc-map/tr_services_layout_three.php:46
+msgid "Enter No. of Slides"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_two.php:48
+#: vc_templates/vc-map/tr_services_layout_one.php:48
+#: vc_templates/vc-map/tr_services_layout_three.php:49
+msgid "No. of slides."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_extended.php:17
+msgid "Transport Features Section Extended"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_extended.php:23
+#: vc_templates/vc-map/tr_features_layout_two_wrap.php:25
+msgid "Features Section Extended."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_extended.php:48
+#: vc_templates/vc-map/tr_features_layout_two_wrap.php:50
+#: vc_templates/vc-map/tr_features_layout_one.php:46
+#: vc_templates/vc-map/tr_features_layout_two.php:46
+msgid "Enter Main content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_extended.php:51
+#: vc_templates/vc-map/tr_features_layout_two_wrap.php:53
+#: vc_templates/vc-map/tr_features_layout_one.php:49
+#: vc_templates/vc-map/tr_features_layout_two.php:49
+msgid "Section Main content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_extended.php:57
+#: vc_templates/vc-map/tr_have_a_question.php:47
+#: vc_templates/vc-map/tr_features_layout_one.php:55
+#: vc_templates/vc-map/tr_about_section_layout_two.php:46
+msgid "Enter link label"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_extended.php:60
+#: vc_templates/vc-map/tr_have_a_question.php:50
+#: vc_templates/vc-map/tr_features_layout_one.php:58
+#: vc_templates/vc-map/tr_about_section_layout_two.php:49
+msgid "link label."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_extended.php:66
+#: vc_templates/vc-map/tr_have_a_question.php:56
+#: vc_templates/vc-map/tr_features_layout_one.php:64
+#: vc_templates/vc-map/tr_about_section_layout_two.php:55
+msgid "Enter link"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_extended.php:69
+#: vc_templates/vc-map/tr_have_a_question.php:59
+#: vc_templates/vc-map/tr_features_layout_one.php:67
+#: vc_templates/vc-map/tr_about_section_layout_two.php:58
+msgid "Link."
+msgstr ""
+
+#: vc_templates/vc-map/tr_banner.php:17
+msgid "Transport Banner Section"
+msgstr ""
+
+#: vc_templates/vc-map/tr_banner.php:22
+msgid "Transport Banner Section."
+msgstr ""
+
+#: vc_templates/vc-map/tr_banner.php:28
+#: vc_templates/vc-map/tr_simple_content.php:27
+#: vc_templates/vc-map/tr_about_section_layout_one.php:28
+msgid "Section Image"
+msgstr ""
+
+#: vc_templates/vc-map/tr_banner.php:31
+#: vc_templates/vc-map/tr_simple_content.php:30
+#: vc_templates/vc-map/tr_about_section_layout_one.php:31
+msgid "Section image."
+msgstr ""
+
+#: vc_templates/vc-map/tr_banner.php:46
+#: vc_templates/vc-map/tr_simple_content.php:63
+msgid "Enter button label"
+msgstr ""
+
+#: vc_templates/vc-map/tr_banner.php:49
+#: vc_templates/vc-map/tr_simple_content.php:66
+msgid "Button label."
+msgstr ""
+
+#: vc_templates/vc-map/tr_banner.php:55
+#: vc_templates/vc-map/tr_simple_content.php:72
+msgid "Enter button link"
+msgstr ""
+
+#: vc_templates/vc-map/tr_banner.php:58
+#: vc_templates/vc-map/tr_simple_content.php:75
+#: inc/options/field/banner.php:21 inc/options/field/banner.php:22
+msgid "Button Link."
+msgstr ""
+
+#: vc_templates/vc-map/tr_have_a_question.php:18
+#: vc_templates/vc-map/tr_have_a_question.php:23
+msgid "Transport Have a Question"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_two_wrap.php:17
+msgid "Transport Features Layout Two Wrap"
+msgstr ""
+
+#: vc_templates/vc-map/tr_query_section.php:16
+msgid "Transport Query Section"
+msgstr ""
+
+#: vc_templates/vc-map/tr_query_section.php:21
+msgid "Transport query Section."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_two_item.php:16
+msgid "Transport Features Layout Two Item"
+msgstr ""
+
+#: vc_templates/vc-map/tr_testimonial_layout_one.php:16
+#: vc_templates/vc-map/tr_testimonial_layout_one.php:21
+msgid "Transport Testimonial"
+msgstr ""
+
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:17
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:22
+msgid "Transport Testimonial Layout Two"
+msgstr ""
+
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:28
+msgid "Background Image"
+msgstr ""
+
+#: vc_templates/vc-map/tr_testimonial_layout_two.php:31
+msgid "Background Image."
+msgstr ""
+
+#: vc_templates/vc-map/tr_our_team.php:17
+#: vc_templates/vc-map/tr_our_team.php:22
+msgid "Our Team"
+msgstr ""
+
+#: vc_templates/vc-map/tr_free_quote.php:17
+#: vc_templates/vc-map/tr_free_quote.php:22
+msgid "Transport Free Quote"
+msgstr ""
+
+#: vc_templates/vc-map/tr_free_quote.php:37
+msgid "Select a Form"
+msgstr ""
+
+#: vc_templates/vc-map/tr_free_quote.php:40
+msgid "Select a Form."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:73
+#: vc_templates/vc-map/tr_features_layout_two.php:55
+msgid "Feature One Icon"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:76
+#: vc_templates/vc-map/tr_features_layout_two.php:58
+msgid "Feature One Icon."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:82
+#: vc_templates/vc-map/tr_features_layout_two.php:64
+msgid "Feature One Title"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:85
+#: vc_templates/vc-map/tr_features_layout_two.php:67
+msgid "Feature One Title."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:91
+#: vc_templates/vc-map/tr_features_layout_two.php:73
+msgid "Feature One Content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:94
+#: vc_templates/vc-map/tr_features_layout_two.php:76
+msgid "Feature One Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:100
+#: vc_templates/vc-map/tr_features_layout_two.php:82
+msgid "Feature Two Icon"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:103
+#: vc_templates/vc-map/tr_features_layout_two.php:85
+msgid "Feature Two Icon."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:109
+#: vc_templates/vc-map/tr_features_layout_two.php:91
+msgid "Feature Two Title"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:112
+#: vc_templates/vc-map/tr_features_layout_two.php:94
+msgid "Feature Two Title."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:118
+#: vc_templates/vc-map/tr_features_layout_two.php:100
+msgid "Feature Two Content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:121
+#: vc_templates/vc-map/tr_features_layout_two.php:103
+msgid "Feature Two Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:127
+#: vc_templates/vc-map/tr_features_layout_two.php:109
+msgid "Feature Three Icon"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:130
+#: vc_templates/vc-map/tr_features_layout_two.php:112
+msgid "Feature Three Icon."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:136
+#: vc_templates/vc-map/tr_features_layout_two.php:118
+msgid "Feature Three Title"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:139
+#: vc_templates/vc-map/tr_features_layout_two.php:121
+msgid "Feature Three Title."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:145
+#: vc_templates/vc-map/tr_features_layout_two.php:127
+msgid "Feature Three Content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:148
+#: vc_templates/vc-map/tr_features_layout_two.php:130
+msgid "Feature Three Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:154
+#: vc_templates/vc-map/tr_features_layout_two.php:136
+msgid "Feature Four Icon"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:157
+#: vc_templates/vc-map/tr_features_layout_two.php:139
+msgid "Feature Four Icon."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:163
+#: vc_templates/vc-map/tr_features_layout_two.php:145
+msgid "Feature Four Title"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:166
+#: vc_templates/vc-map/tr_features_layout_two.php:148
+msgid "Feature Four Title."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:172
+#: vc_templates/vc-map/tr_features_layout_two.php:154
+msgid "Feature Four Content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_one.php:175
+#: vc_templates/vc-map/tr_features_layout_two.php:157
+msgid "Feature Four Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:18
+#: vc_templates/vc-map/tr_services_layout_banner.php:23
+msgid "Transport Services Banner Layout"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:29
+msgid "Upload Banner Image"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:32
+msgid "Banner Image."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:38
+msgid "Enter Title"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:41
+msgid "Section title."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:50
+msgid "Section Description"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:56
+msgid "Enter Button Text"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:59
+msgid "View More Button."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:65
+msgid "Enter Button Link"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_banner.php:68
+msgid "View More Button Link."
+msgstr ""
+
+#: vc_templates/vc-map/tr_news_layout_two.php:17
+#: vc_templates/vc-map/tr_news_layout_two.php:22
+msgid "Transport News Layout Two"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_four.php:29
+#: vc_templates/vc-map/tr_services_layout_four.php:34
+msgid "Transport Services Layout Four"
+msgstr ""
+
+#: vc_templates/vc-map/tr_simple_content.php:16
+msgid "Transport Simple Content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_simple_content.php:21
+msgid "Transport Simple Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_simple_content.php:54
+#: vc_templates/vc-map/tr_about_section_layout_one.php:55
+msgid "Content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_simple_content.php:57
+#: vc_templates/vc-map/tr_about_section_layout_one.php:58
+msgid "Enter Section Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_two.php:17
+msgid "Transport Features Layout Two"
+msgstr ""
+
+#: vc_templates/vc-map/tr_features_layout_two.php:22
+msgid "Transport Features Layout Two."
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_one.php:17
+msgid "Transport About Layout One"
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_one.php:22
+msgid "Transport about section"
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_one.php:64
+msgid "Secondary Content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_one.php:67
+msgid "Enter Secondary Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_one.php:73
+msgid "Enter Sub Heading"
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_one.php:76
+msgid "Section sub heading."
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_one.php:82
+msgid "Enter Sub Heading Description"
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_one.php:85
+msgid "Section sub heading Description."
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_two.php:17
+#: vc_templates/vc-map/tr_about_section_layout_two.php:22
+msgid "Transport About Section Layout Two"
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_two.php:64
+msgid "Section main content"
+msgstr ""
+
+#: vc_templates/vc-map/tr_about_section_layout_two.php:67
+msgid "Main Content."
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_one.php:16
+#: vc_templates/vc-map/tr_services_layout_one.php:21
+msgid "Transport Services Carousel"
+msgstr ""
+
+#: vc_templates/vc-map/tr_services_layout_three.php:17
+#: vc_templates/vc-map/tr_services_layout_three.php:22
+msgid "Transport Services Carousel Three"
+msgstr ""
+
+#: woocommerce/product-searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67 inc/metabox/location.php:49
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:19
+#: woocommerce/single-product/sale-flash.php:19
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:17
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/result-count.php:30
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:22
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+#, php-format
+msgid "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+msgid " ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:25 woocommerce/myaccount/view-order.php:24
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/order/tracking.php:31 woocommerce/myaccount/view-order.php:30
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:14
+msgid "Customer Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:19
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:26
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:33
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:49
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/myaccount/form-edit-address.php:16
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:52
+#: woocommerce/order/order-details-customer.php:63
+#: woocommerce/single-product/meta.php:26
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:60
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/myaccount/form-edit-address.php:16
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/order/order-again.php:16
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:20 woocommerce/checkout/form-pay.php:20
+#: woocommerce/checkout/review-order.php:17
+#: woocommerce/emails/admin-new-order.php:27
+#: woocommerce/emails/customer-note.php:31
+#: woocommerce/emails/customer-processing-order.php:27
+#: woocommerce/emails/customer-completed-order.php:27
+#: woocommerce/emails/customer-invoice.php:31
+#: woocommerce/emails/admin-cancelled-order.php:22
+#: woocommerce/emails/customer-refunded-order.php:34
+#: woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr ""
+
+#: woocommerce/order/order-details.php:21
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/checkout/review-order.php:18
+#: woocommerce/checkout/review-order.php:97 woocommerce/cart/cart.php:30
+#: woocommerce/cart/cart-totals.php:78
+msgid "Total"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:24
+#: woocommerce/global/form-login.php:26
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:50
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:50
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:23
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:33
+#: woocommerce/myaccount/form-login.php:82
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid "Password Change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:41
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:49
+msgid "Confirm New Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:45 inc/comment.php:43
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:20
+msgid "Available Downloads"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:28
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:35 woocommerce/auth/form-login.php:26
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:89
+#: woocommerce/global/form-login.php:30 woocommerce/auth/form-login.php:30
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:49
+#: woocommerce/global/form-login.php:42
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:53
+#: woocommerce/global/form-login.php:46
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:66
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:75
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:20
+#, php-format
+msgid ""
+"Order #<mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:33 inc/metabox/achivement.php:57
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:34
+msgid "Status"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:68 woocommerce/checkout/thankyou.php:28
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:75
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:81
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:41
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36 woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Payment Method:"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:45
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:18
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:22
+msgid "Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:21
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:22
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:80
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:90
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:19
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:23
+msgid "Billing Details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:42
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:53
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:50 woocommerce/cart/mini-cart.php:71
+#: woocommerce/cart/cart-totals.php:24
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:18
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:19
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:26
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:32
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:58
+#: woocommerce/single-product/tabs/additional-information.php:16
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:30
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:32
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:53
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:18
+#, php-format
+msgid "You have received an order from %s. The order is as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:22
+#: woocommerce/emails/customer-note.php:26
+#: woocommerce/emails/customer-processing-order.php:22
+#: woocommerce/emails/customer-completed-order.php:22
+#: woocommerce/emails/customer-invoice.php:26
+#: woocommerce/emails/customer-refunded-order.php:29
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:28
+#: woocommerce/emails/customer-note.php:32
+#: woocommerce/emails/customer-processing-order.php:28
+#: woocommerce/emails/customer-completed-order.php:28
+#: woocommerce/emails/customer-invoice.php:32
+#: woocommerce/emails/admin-cancelled-order.php:23
+#: woocommerce/emails/customer-refunded-order.php:35
+#: woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:29
+#: woocommerce/emails/customer-note.php:33
+#: woocommerce/emails/customer-processing-order.php:29
+#: woocommerce/emails/customer-completed-order.php:29
+#: woocommerce/emails/customer-invoice.php:33
+#: woocommerce/emails/admin-cancelled-order.php:24
+#: woocommerce/emails/customer-refunded-order.php:36
+#: woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:18
+#: woocommerce/emails/plain/customer-note.php:16
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:22
+#: woocommerce/emails/plain/customer-note.php:24
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: woocommerce/emails/customer-processing-order.php:18
+#: woocommerce/emails/plain/customer-processing-order.php:16
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-completed-order.php:18
+#: woocommerce/emails/plain/customer-completed-order.php:16
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:20
+#: woocommerce/emails/plain/customer-invoice.php:17
+#, php-format
+msgid ""
+"An order has been created for you on %s. To pay for this order please use "
+"the following link: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:20
+msgid "pay"
+msgstr ""
+
+#: woocommerce/emails/admin-cancelled-order.php:13
+#: woocommerce/emails/plain/admin-cancelled-order.php:15
+#, php-format
+msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-cancelled-order.php:17
+#, php-format
+msgid "Order: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:18
+#: woocommerce/emails/plain/customer-reset-password.php:16
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:19
+#: woocommerce/emails/plain/customer-reset-password.php:18
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:20
+#: woocommerce/emails/plain/customer-reset-password.php:19
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:21
+#: woocommerce/emails/plain/customer-reset-password.php:20
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:24
+msgid "Click here to reset your password"
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:20
+#, php-format
+msgid "Hi there. Your order on %s has been partially refunded."
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:23
+#, php-format
+msgid "Hi there. Your order on %s has been refunded."
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:50
+#: woocommerce/emails/plain/customer-refunded-order.php:32
+msgid "Amount Refunded"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:20
+#: woocommerce/emails/plain/email-addresses.php:14
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:30
+#: woocommerce/emails/plain/email-addresses.php:18
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:18
+#: woocommerce/emails/plain/customer-new-account.php:16
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:22
+#, php-format
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:26
+#: woocommerce/emails/plain/customer-new-account.php:21
+#, php-format
+msgid ""
+"You can access your account area to view your orders and change your "
+"password here: %s."
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:16
+#, php-format
+msgid "You have received an order from %s."
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:22
+#: woocommerce/emails/plain/customer-note.php:30
+#: woocommerce/emails/plain/customer-processing-order.php:22
+#: woocommerce/emails/plain/customer-completed-order.php:22
+#: woocommerce/emails/plain/customer-invoice.php:23
+#: woocommerce/emails/plain/admin-cancelled-order.php:21
+#: woocommerce/emails/plain/customer-refunded-order.php:22
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:23
+#: woocommerce/emails/plain/customer-note.php:31
+#: woocommerce/emails/plain/customer-processing-order.php:23
+#: woocommerce/emails/plain/customer-completed-order.php:23
+#: woocommerce/emails/plain/customer-invoice.php:24
+#: woocommerce/emails/plain/admin-cancelled-order.php:22
+#: woocommerce/emails/plain/customer-refunded-order.php:23
+msgid "jS F Y"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:37
+#: woocommerce/emails/plain/admin-cancelled-order.php:36
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-refunded-order.php:16
+#, php-format
+msgid ""
+"Hi there. Your order on %s has been refunded. Your order details are shown "
+"below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-new-account.php:19
+#, php-format
+msgid "Your password is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:35
+#, php-format
+msgid "Quantity: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:38
+#, php-format
+msgid "Cost: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:49
+#, php-format
+msgid "Download %d"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:51
+msgid "Download"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:20
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:22 woocommerce/cart/cart-shipping.php:97
+#: woocommerce/cart/cart-totals.php:46
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:76 woocommerce/cart/cart-shipping.php:82
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:18
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:22
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:30
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:87
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:16
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/cart.php:50 woocommerce/cart/mini-cart.php:40
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:82
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:128
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:63
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:76
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:77 inc/blog-layout.php:96
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:93
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:42
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:43
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/related.php:42
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:26
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:27
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:29
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/review.php:29
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:30
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:37
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:46
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:29
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:36
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:16
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:23
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:34
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/auth/header.php:22
+msgid "Application Authentication Request"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:18
+#: woocommerce/auth/form-grant-access.php:16
+#, php-format
+msgid "%s would like to connect to your store"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:22
+#, php-format
+msgid ""
+"To connect to %1$s you need to be logged in. Log in to your store below, or "
+"%2$scancel and return to %1$s%3$s"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:20
+#, php-format
+msgid ""
+"This will give \"%s\" <strong>%s</strong> access which will allow it to:"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:30
+#, php-format
+msgid "Logged in as %s"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:30
+msgid "Logout"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:34
+msgid "Approve"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:35
+msgid "Deny"
+msgstr ""
+
+#: inc/blog-layout.php:26
+msgid "by :"
+msgstr ""
+
+#: inc/blog-layout.php:85 inc/widgets/register-sidebar.php:52
+msgid "Shop"
+msgstr ""
+
+#: inc/blog-layout.php:89
+msgid "Cart"
+msgstr ""
+
+#: inc/blog-layout.php:100
+msgid "Account"
+msgstr ""
+
+#: inc/blog-layout.php:143
+msgid "DO YOU STILL HAVE A QUESTION REGARING OUR SERVICES?"
+msgstr ""
+
+#: inc/general-layout.php:107
+msgid "Transport Theme running in comig soon mod"
+msgstr ""
+
+#: inc/general-layout.php:123
+msgid "Loading..."
+msgstr ""
+
+#: inc/theme-setup.php:40
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/theme-setup.php:41
+msgid "Footer Navigation"
+msgstr ""
+
+#: inc/theme-setup.php:91 inc/theme-setup.php:101
+#, php-format
+msgid ""
+"Transport requires at least WordPress version 3.9 You are running version "
+"%s. Please upgrade and try again."
+msgstr ""
+
+#: inc/theme-setup.php:134
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/comment.php:21
+msgid "Pingback:"
+msgstr ""
+
+#: inc/comment.php:21
+msgid "(Edit)"
+msgstr ""
+
+#: inc/comment.php:38
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comment.php:44
+msgid "Reply"
+msgstr ""
+
+#: inc/options/options-section.php:14
+msgid "General"
+msgstr ""
+
+#: inc/options/options-section.php:19
+msgid "Typography"
+msgstr ""
+
+#: inc/options/options-section.php:24 inc/options/field/header-layout.php:14
+msgid "Header Layout"
+msgstr ""
+
+#: inc/options/options-section.php:29 inc/options/field/footer-layout.php:14
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/options/options-section.php:34 inc/options/field/home-layout.php:59
+msgid "Home Layout"
+msgstr ""
+
+#: inc/options/options-section.php:39 inc/options/field/blog-layout.php:13
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/options/options-section.php:44 inc/options/field/google-font.php:15
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/options/options-section.php:50
+msgid "Social"
+msgstr ""
+
+#: inc/options/options-section.php:55
+msgid "Banner"
+msgstr ""
+
+#: inc/options/options-section.php:60
+msgid "Contact"
+msgstr ""
+
+#: inc/options/options-section.php:65
+msgid "Comment"
+msgstr ""
+
+#: inc/options/options-section.php:70
+msgid "Coming Soon"
+msgstr ""
+
+#: inc/options/options-section.php:76 inc/widgets/register-sidebar.php:32
+msgid "Footer"
+msgstr ""
+
+#: inc/options/options-section.php:81
+msgid "404 Page"
+msgstr ""
+
+#: inc/options/options-section.php:86
+msgid "Advance"
+msgstr ""
+
+#: inc/options/theme-options.php:19
+msgid "Woocommerce page Settings"
+msgstr ""
+
+#: inc/options/field/advance.php:14
+msgid "Site Loader Enable"
+msgstr ""
+
+#: inc/options/field/advance.php:15
+msgid "Site loader enable / disable"
+msgstr ""
+
+#: inc/options/field/advance.php:29
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/options/field/advance.php:30
+msgid "custom css"
+msgstr ""
+
+#: inc/options/field/google-font.php:16
+msgid ""
+"The Google Fonts option type will dynamically enqueue any number of Google "
+"Web Fonts into the document. Now we are providing support for four fonts "
+"(Exo, Raleway, Open Sans, Montserrat, Lato)"
+msgstr ""
+
+#: inc/options/field/home-layout.php:13
+msgid "Home - 1 "
+msgstr ""
+
+#: inc/options/field/home-layout.php:14
+msgid "Select home one."
+msgstr ""
+
+#: inc/options/field/home-layout.php:28
+msgid "Home - 2 "
+msgstr ""
+
+#: inc/options/field/home-layout.php:29
+msgid "Select home two."
+msgstr ""
+
+#: inc/options/field/home-layout.php:43
+msgid "Home - 3 "
+msgstr ""
+
+#: inc/options/field/home-layout.php:44
+msgid "Select home three."
+msgstr ""
+
+#: inc/options/field/home-layout.php:60
+msgid "Select Home layout."
+msgstr ""
+
+#: inc/options/field/home-layout.php:74 inc/options/field/blog-layout.php:28
+msgid "Home One"
+msgstr ""
+
+#: inc/options/field/home-layout.php:79 inc/options/field/blog-layout.php:33
+msgid "Home Two"
+msgstr ""
+
+#: inc/options/field/home-layout.php:84
+msgid "Home Three"
+msgstr ""
+
+#: inc/options/field/blog-layout.php:14
+msgid "Select Blog layout."
+msgstr ""
+
+#: inc/options/field/contact.php:13 inc/options/field/contact.php:14
+msgid "Email Label Text."
+msgstr ""
+
+#: inc/options/field/contact.php:28
+msgid "Eamil"
+msgstr ""
+
+#: inc/options/field/contact.php:29
+msgid "Enter email here."
+msgstr ""
+
+#: inc/options/field/contact.php:43
+msgid "Request A Quote Label Text"
+msgstr ""
+
+#: inc/options/field/contact.php:44
+msgid "Request A Quote Label Text."
+msgstr ""
+
+#: inc/options/field/contact.php:58
+msgid "Request A Quote Page"
+msgstr ""
+
+#: inc/options/field/contact.php:59
+msgid "Select A Quote Page."
+msgstr ""
+
+#: inc/options/field/contact.php:73
+msgid "Phone No Label Text"
+msgstr ""
+
+#: inc/options/field/contact.php:74
+msgid "Phone No Label Text."
+msgstr ""
+
+#: inc/options/field/contact.php:88
+msgid "Phone No."
+msgstr ""
+
+#: inc/options/field/contact.php:89
+msgid "Phone No.."
+msgstr ""
+
+#: inc/options/field/contact.php:103
+msgid "Map Latitude"
+msgstr ""
+
+#: inc/options/field/contact.php:104
+msgid "Map Latitude."
+msgstr ""
+
+#: inc/options/field/contact.php:118
+msgid "Map Longitude"
+msgstr ""
+
+#: inc/options/field/contact.php:119
+msgid "Map Longitude."
+msgstr ""
+
+#: inc/options/field/contact.php:133
+msgid "Query Section Enable"
+msgstr ""
+
+#: inc/options/field/contact.php:134
+msgid "Query Section Enable/Disable"
+msgstr ""
+
+#: inc/options/field/contact.php:148 inc/options/field/contact.php:149
+msgid "Query Section Button Label."
+msgstr ""
+
+#: inc/options/field/contact.php:156 inc/options/field/contact.php:157
+msgid "Query Section Button Link."
+msgstr ""
+
+#: inc/options/field/contact.php:164 inc/options/field/contact.php:165
+msgid "Query Section Title."
+msgstr ""
+
+#: inc/options/field/contact.php:172 inc/options/field/contact.php:173
+msgid "Query Section Description."
+msgstr ""
+
+#: inc/options/field/banner.php:13 inc/options/field/banner.php:14
+msgid "Button Label."
+msgstr ""
+
+#: inc/options/field/banner.php:29 inc/metabox/common-page.php:63
+msgid "Banner Image"
+msgstr ""
+
+#: inc/options/field/banner.php:30 inc/metabox/common-page.php:64
+msgid "Upload Banner Image Here."
+msgstr ""
+
+#: inc/options/field/social.php:14
+msgid "Social Icons"
+msgstr ""
+
+#: inc/options/field/social.php:15
+msgid "Social Icons."
+msgstr ""
+
+#: inc/options/field/social.php:29 inc/metabox/team.php:64
+msgid "Icon Class"
+msgstr ""
+
+#: inc/options/field/social.php:37 inc/metabox/team.php:72
+msgid "Link"
+msgstr ""
+
+#: inc/options/field/footer.php:14
+msgid "Transport Copyright"
+msgstr ""
+
+#: inc/options/field/footer.php:15
+msgid "Transport Copyright."
+msgstr ""
+
+#: inc/options/field/footer.php:23
+msgid "Transport footer background"
+msgstr ""
+
+#: inc/options/field/footer.php:24
+msgid "Transport footer background."
+msgstr ""
+
+#: inc/options/field/footer-layout.php:15
+msgid "Select Footer layout."
+msgstr ""
+
+#: inc/options/field/footer-layout.php:29
+msgid "Footer One"
+msgstr ""
+
+#: inc/options/field/footer-layout.php:34
+msgid "Footer Two"
+msgstr ""
+
+#: inc/options/field/404.php:13
+msgid "404 Page Image"
+msgstr ""
+
+#: inc/options/field/404.php:14
+msgid "Upload 404 Page Here."
+msgstr ""
+
+#: inc/options/field/404.php:21 inc/options/field/404.php:22
+msgid "404 Page Title."
+msgstr ""
+
+#: inc/options/field/404.php:29 inc/options/field/404.php:30
+msgid "404 Page Sub Title."
+msgstr ""
+
+#: inc/options/field/header-layout.php:15
+msgid "Select Header layout."
+msgstr ""
+
+#: inc/options/field/header-layout.php:29
+msgid "Header One"
+msgstr ""
+
+#: inc/options/field/header-layout.php:34
+msgid "Header Two"
+msgstr ""
+
+#: inc/options/field/coming-soon.php:14
+msgid "Coming Soon Page "
+msgstr ""
+
+#: inc/options/field/coming-soon.php:15
+msgid "Select Coming soon page."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:29
+msgid "Coming Soon Enable"
+msgstr ""
+
+#: inc/options/field/coming-soon.php:30
+msgid "Coming Soon Enable/Disable"
+msgstr ""
+
+#: inc/options/field/coming-soon.php:45
+msgid "Coming Soon Background Image."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:46
+msgid "Upload Coming Soon Background Image."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:53 inc/options/field/coming-soon.php:54
+msgid "Coming Soon Logo."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:61 inc/options/field/coming-soon.php:62
+msgid "Title."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:69 inc/options/field/coming-soon.php:70
+msgid "Description."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:77 inc/options/field/coming-soon.php:78
+msgid "Date."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:85 inc/metabox/location.php:50
+msgid "Email."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:86
+msgid "Eamil."
+msgstr ""
+
+#: inc/options/field/coming-soon.php:93 inc/options/field/coming-soon.php:94
+msgid "Phone Number."
+msgstr ""
+
+#: inc/options/field/woocommerce.php:13
+msgid "Shop Page Banner Title."
+msgstr ""
+
+#: inc/options/field/woocommerce.php:14
+msgid "Enter Shop Page Banner Title."
+msgstr ""
+
+#: inc/options/field/woocommerce.php:21
+msgid "Cart Page Banner Title."
+msgstr ""
+
+#: inc/options/field/woocommerce.php:22
+msgid "Enter Cart Page Banner Title."
+msgstr ""
+
+#: inc/options/field/woocommerce.php:29
+msgid "Checkout Page Banner Title."
+msgstr ""
+
+#: inc/options/field/woocommerce.php:30
+msgid "Enter Checkout Page Banner Title."
+msgstr ""
+
+#: inc/options/field/woocommerce.php:37
+msgid "Account Page Banner Title."
+msgstr ""
+
+#: inc/options/field/woocommerce.php:38
+msgid "Enter Account Page Banner Title."
+msgstr ""
+
+#: inc/options/field/typography.php:14
+msgid "Theme Color"
+msgstr ""
+
+#: inc/options/field/typography.php:15
+msgid "Please Select a color Scheme for the theme."
+msgstr ""
+
+#: inc/options/field/typography.php:30
+msgid "Theme Fonts"
+msgstr ""
+
+#: inc/options/field/typography.php:31
+msgid "Pleaes select a font style ."
+msgstr ""
+
+#: inc/options/field/typography.php:46
+msgid "Theme Headings Fonts"
+msgstr ""
+
+#: inc/options/field/typography.php:47
+msgid "Pleaes select a font style for theme headings ."
+msgstr ""
+
+#: inc/options/field/typography.php:62
+msgid "Theme Effect"
+msgstr ""
+
+#: inc/options/field/typography.php:63
+msgid "Select Theme Effect."
+msgstr ""
+
+#: inc/options/field/typography.php:77 inc/options/field/general.php:59
+msgid "Normal"
+msgstr ""
+
+#: inc/options/field/typography.php:82
+msgid "Transition"
+msgstr ""
+
+#: inc/options/field/general.php:13
+msgid "Site Header Logo"
+msgstr ""
+
+#: inc/options/field/general.php:14
+msgid "Enter Site header Logo Here."
+msgstr ""
+
+#: inc/options/field/general.php:28
+msgid "Favicon"
+msgstr ""
+
+#: inc/options/field/general.php:29
+msgid "Please Select a favicon for the theme."
+msgstr ""
+
+#: inc/options/field/general.php:44
+msgid "Stickey Header"
+msgstr ""
+
+#: inc/options/field/general.php:45
+msgid "Select Stickey Header."
+msgstr ""
+
+#: inc/options/field/general.php:64
+msgid "Fixed"
+msgstr ""
+
+#: inc/options/field/general.php:69
+msgid "Intelligent"
+msgstr ""
+
+#: inc/options/field/general.php:76
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/options/field/general.php:77
+msgid "Select Theme Layout."
+msgstr ""
+
+#: inc/options/field/general.php:91
+msgid "Full Width"
+msgstr ""
+
+#: inc/options/field/general.php:96
+msgid "Boxed"
+msgstr ""
+
+#: inc/options/field/comment.php:13
+msgid "Page Comment Enable"
+msgstr ""
+
+#: inc/options/field/comment.php:14
+msgid "Page Comment Enable/Disable"
+msgstr ""
+
+#: inc/options/field/comment.php:28
+msgid "Comment Website Field Enable"
+msgstr ""
+
+#: inc/options/field/comment.php:29
+msgid "Comment Website Field Enable/Disable"
+msgstr ""
+
+#: inc/metabox/common-page.php:27
+msgid "Common Page Settings"
+msgstr ""
+
+#: inc/metabox/common-page.php:35
+msgid "Sub Title."
+msgstr ""
+
+#: inc/metabox/common-page.php:36
+msgid "Page Sub Title."
+msgstr ""
+
+#: inc/metabox/common-page.php:42 inc/metabox/common-page.php:43
+msgid "Banner Button Label."
+msgstr ""
+
+#: inc/metabox/common-page.php:49 inc/metabox/common-page.php:50
+msgid "Banner Button Link."
+msgstr ""
+
+#: inc/metabox/common-page.php:56 inc/metabox/common-page.php:57
+msgid "Banner Title."
+msgstr ""
+
+#: inc/metabox/contact.php:27
+msgid "Contact Settings"
+msgstr ""
+
+#: inc/metabox/contact.php:35
+msgid "Select Contact Form"
+msgstr ""
+
+#: inc/metabox/contact.php:36
+msgid "Select Contact Form."
+msgstr ""
+
+#: inc/metabox/contact.php:49 inc/metabox/contact.php:50
+msgid "Location Section Sub Title."
+msgstr ""
+
+#: inc/metabox/contact.php:56 inc/metabox/contact.php:57
+msgid "Location Section Title."
+msgstr ""
+
+#: inc/metabox/testimonial.php:27
+msgid "Testimonial"
+msgstr ""
+
+#: inc/metabox/testimonial.php:35
+msgid "Enter author position"
+msgstr ""
+
+#: inc/metabox/testimonial.php:36
+msgid "Testimonial author position."
+msgstr ""
+
+#: inc/metabox/testimonial.php:42
+msgid "Enter author URL"
+msgstr ""
+
+#: inc/metabox/testimonial.php:43
+msgid "Testimonial author URL."
+msgstr ""
+
+#: inc/metabox/achivement.php:27
+msgid "Achivements Settings"
+msgstr ""
+
+#: inc/metabox/achivement.php:35 inc/metabox/achivement.php:36
+msgid "Achivements Tree top text."
+msgstr ""
+
+#: inc/metabox/achivement.php:42 inc/metabox/achivement.php:43
+msgid "Achivements Tree bottom text."
+msgstr ""
+
+#: inc/metabox/achivement.php:49
+msgid "Achivements Tree Item"
+msgstr ""
+
+#: inc/metabox/achivement.php:50
+msgid "Achivements Tree Item."
+msgstr ""
+
+#: inc/metabox/achivement.php:65
+msgid "Achivement Image"
+msgstr ""
+
+#: inc/metabox/achivement.php:73
+msgid "Achivement Content"
+msgstr ""
+
+#: inc/metabox/location.php:27
+msgid "Location meta box"
+msgstr ""
+
+#: inc/metabox/location.php:35
+msgid "Location longitude"
+msgstr ""
+
+#: inc/metabox/location.php:36
+msgid "Location longitude."
+msgstr ""
+
+#: inc/metabox/location.php:42
+msgid "Location latitude"
+msgstr ""
+
+#: inc/metabox/location.php:43
+msgid "Location latitude."
+msgstr ""
+
+#: inc/metabox/location.php:56
+msgid "Phone"
+msgstr ""
+
+#: inc/metabox/location.php:57
+msgid "Phone."
+msgstr ""
+
+#: inc/metabox/services.php:27
+msgid "Service"
+msgstr ""
+
+#: inc/metabox/services.php:35
+msgid "Enter Services Slider Title"
+msgstr ""
+
+#: inc/metabox/services.php:36
+msgid "Services Slider Title."
+msgstr ""
+
+#: inc/metabox/services.php:42
+msgid "Enter Services Slider Sub Title"
+msgstr ""
+
+#: inc/metabox/services.php:43
+msgid "Services Slider Sub Title."
+msgstr ""
+
+#: inc/metabox/services.php:49
+msgid "Enter Services Slider Description"
+msgstr ""
+
+#: inc/metabox/services.php:50
+msgid "Services Slider Description."
+msgstr ""
+
+#: inc/metabox/team.php:27
+msgid "Team"
+msgstr ""
+
+#: inc/metabox/team.php:35
+msgid "Enter member position"
+msgstr ""
+
+#: inc/metabox/team.php:36
+msgid "Team member position."
+msgstr ""
+
+#: inc/metabox/team.php:42
+msgid "Enter member description"
+msgstr ""
+
+#: inc/metabox/team.php:43
+msgid "Team member description."
+msgstr ""
+
+#: inc/metabox/team.php:49
+msgid "Member Social Links"
+msgstr ""
+
+#: inc/metabox/team.php:50
+msgid "Member Social Links."
+msgstr ""
+
+#: inc/metabox/metabox.php:57
+msgid "Upload .mp3 File."
+msgstr ""
+
+#: inc/metabox/metabox.php:64
+msgid "Upload .ogg File."
+msgstr ""
+
+#: inc/metabox/metabox.php:71
+msgid "Upload .wav File."
+msgstr ""
+
+#: inc/metabox/metabox.php:88 inc/metabox/metabox.php:97
+msgid "Quote"
+msgstr ""
+
+#: inc/lib/pagination.php:78
+msgid "&laquo; Previous"
+msgstr ""
+
+#: inc/lib/pagination.php:79
+msgid "Next &raquo;"
+msgstr ""
+
+#: inc/lib/pagination.php:118
+msgid "Previous"
+msgstr ""
+
+#: inc/lib/pagination.php:139
+msgid "&hellip;"
+msgstr ""
+
+#: inc/lib/pagination.php:152
+msgid "Next"
+msgstr ""
+
+#: inc/widgets/register-sidebar.php:22
+msgid "Primary"
+msgstr ""
+
+#: inc/widgets/register-sidebar.php:42
+msgid "Page Layout Two"
+msgstr ""
+
+#: inc/widgets/quote-widget.php:15
+msgid "Transport Quote Widget."
+msgstr ""
+
+#: inc/widgets/quote-widget.php:17
+msgid "Transport Quote"
+msgstr ""
+
+#: inc/widgets/quote-widget.php:84 inc/widgets/services-widget.php:72
+#: inc/widgets/nav-menu-widget.php:104 inc/widgets/search-widget.php:50
+#: inc/widgets/contact-info-widget.php:98
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/quote-widget.php:87
+msgid "Content:"
+msgstr ""
+
+#: inc/widgets/quote-widget.php:90
+msgid "Button lable:"
+msgstr ""
+
+#: inc/widgets/quote-widget.php:93
+msgid "Link:"
+msgstr ""
+
+#: inc/widgets/services-widget.php:16
+msgid "Transport Services Widget."
+msgstr ""
+
+#: inc/widgets/services-widget.php:18
+msgid "Transport Service Widget"
+msgstr ""
+
+#: inc/widgets/nav-menu-widget.php:16
+msgid "Add a transport custom menu to your sidebar."
+msgstr ""
+
+#: inc/widgets/nav-menu-widget.php:17
+msgid "Transport Custom Menu"
+msgstr ""
+
+#: inc/widgets/nav-menu-widget.php:100
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: inc/widgets/nav-menu-widget.php:108
+msgid "Select Menu:"
+msgstr ""
+
+#: inc/widgets/nav-menu-widget.php:110
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/widgets/search-widget.php:16
+msgid "A search form for your site."
+msgstr ""
+
+#: inc/widgets/search-widget.php:17
+msgid "Transport Search"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:16
+msgid "Transport Contact Information."
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:18
+msgid "Transport Contact Info"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:52
+msgid "phone :"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:101
+msgid "Contact Info Title:"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:104
+msgid "Address Info:"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:107
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:109
+msgid "Phone No:"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:112
+msgid "Eamil:"
+msgstr ""
