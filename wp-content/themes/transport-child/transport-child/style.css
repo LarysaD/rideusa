@@ -48,3 +48,6 @@ ul, ol {
     padding-bottom: 10px!important;
 }
 
+ul.children {
+	padding-left: 25px;
+}
