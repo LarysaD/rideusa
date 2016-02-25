@@ -802,6 +802,12 @@ background:#DDB23F;
 	font-size: 15px;
 	padding-top: 20px;
 }
+
+@media all and (max-width: 767px) {
+	.copyright {
+		text-align: center;
+	}
+}
 .copyright a {
 	color: #fff;
 }

@@ -596,6 +596,25 @@
 /* Mobile
  ----------------------------------------*/
 @media only screen and (max-width: 767px) {
+	.query {
+		margin-top: 0;
+		padding: 15px 0px;
+		text-align: center;
+	}
+	.button {
+		margin: 0 auto;
+	}
+	.testimonial-section {
+		min-height: 145px;
+	}
+	.custom-blockquote {
+		position:initial;
+		margin: 0;
+	}
+	.description {
+		width: 100%;
+		max-width: 100%;
+	}
 	.tp-rightarrow, .tp-leftarrow {
 		display: none;
 	}
@@ -655,7 +674,9 @@
 		padding: 4px 0 0 4px !important;
 	}
 	.logo {
-		width: 70%;
+		width: 100%;
+		text-align: center;
+		padding-top: 25px;
 	}
 	.navigation {
 		display: none;
@@ -664,7 +685,7 @@
 		width: 100%;
 		position: absolute;
 		right: 0;
-		top: 56px;
+		top: 87px;
 		z-index: 999999;
 		margin-top: 0;
 	}
@@ -806,7 +827,7 @@
 		width: 100%;
 	}
 	.about-us {
-		padding: 20px 10px 150px;
+		padding: 20px 10px 20px;
 	}
 	.custom-blockquote {
 		left: 10px;
@@ -816,10 +837,9 @@
 		padding-right: 10px;
 	}
 	.spanish {
-		padding: 15px 15px 15px 23px;
+		padding: 15px 15px 15px 15px;
 		width: auto;
-		margin-bottom: 50px;
-		margin-right: 10px;
+
 	}
 	.mission > h5 {
 		margin-bottom: 10px;
@@ -899,6 +919,7 @@
 	}
 	.footer-nav {
 		padding-left: 0;
+		text-align: center;
 	}
 	.custom-footer-padding {
 		padding-left: 0;
@@ -3571,4 +3592,10 @@
     .transport-page-settings-two .footer-nav ul a {
         padding: 5px 13px 5px 15px;
     }
+}
+
+@media all and (max-width: 640px) {
+	.wpb_revslider_element.wpb_content_element {
+		display: none;
+	}
 }

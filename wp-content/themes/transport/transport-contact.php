@@ -20,12 +20,16 @@ get_header();
             ?>
             <section id="section"> 
                 <div class="section">
+
                     <?php
                     get_template_part('content/contactform', 'map');
-                    // get_template_part('content/location', 'slider');
-                    ?> 
+                    
+                    ?>
+                    
                 </div>
+                
             </section>
+           
             <?php
         endwhile;
     endif;
