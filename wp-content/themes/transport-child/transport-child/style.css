@@ -51,3 +51,7 @@ ul, ol {
 ul.children {
 	padding-left: 25px;
 }
+
+p.lastP {
+	padding-bottom: 26px;
+}
