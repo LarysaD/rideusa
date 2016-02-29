@@ -668,8 +668,8 @@ ul.pagination li.dot {
     color: #60707d;
     font-size: 15px;
     margin-bottom: 10px;
-    padding-left: 22px;
-    position: relative;
+    /*padding-left: 22px;*/
+    /*position: relative;*/
 }
 .page-layout-two .page-layout-two-content .air-fright-cont li{
     margin-bottom: 0px;
