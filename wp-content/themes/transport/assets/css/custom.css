@@ -636,6 +636,8 @@ blockquote footer::before, blockquote small::before, blockquote .small::before {
     -webkit-transition: 1s all ease;
     border: 1px solid transparent;
     font-weight: 800;
+    position: relative;
+    z-index: 999999;
 }
 .button:hover, .transport-page-settings-three .button:hover, .sign-up button:hover {
     background: #ffffff;
