@@ -609,13 +609,13 @@ blockquote footer::before, blockquote small::before, blockquote .small::before {
 
 /*Styling for Query*/
 .query {
-    padding: 30px 0 13px;
+    padding: 15px 0 15px;
 }
 .query h5 {
     text-transform: uppercase;
     color: #fff;
-    margin-top: 2px;
-    margin-bottom: 7px;
+    margin-top: 16px;
+    margin-bottom: 0px;
     font-weight: 800;
     letter-spacing: -0.5px;
 }
@@ -1533,8 +1533,9 @@ blockquote footer::before, blockquote small::before, blockquote .small::before {
 .banner-image-plane {
     width: 100%;
     height: 298px;
+    background-position: 0% 0%!important;
     /*background: url("../images/service-detail-banner.jpg") no-repeat;*/
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 .blog {
     padding: 71px 0 86px;
@@ -6776,4 +6777,9 @@ h2.slider-six-title{
         right:-32.5% !important;
     }
 
+}
+
+
+#callToAction {
+    height: 52px;
 }
