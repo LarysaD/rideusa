@@ -6809,3 +6809,8 @@ ul.right {
         float: none;
     }
 }
+
+
+ul.left li, ul.right li {
+    margin-bottom: 20px!important;
+}
