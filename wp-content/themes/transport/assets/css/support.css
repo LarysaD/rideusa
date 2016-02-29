@@ -659,6 +659,7 @@ ul.pagination li.dot {
     position: absolute;
     top: 7px;
     width: 8px;
+    display: none;
 }
 .page-layout-two .page-layout-two-content .air-fright-cont li::before{
     display: none;
