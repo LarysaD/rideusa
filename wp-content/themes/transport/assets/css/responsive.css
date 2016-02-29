@@ -1185,7 +1185,8 @@
 	/*	Styling For Services Details Page*/
 	.banner-image-plane {
 		background-attachment: initial;
-		background-size: 100% 100%;
+		/*background-size: 100% 100%;*/
+		background-size: initial;
 	}
 	.services-details {
 		padding: 30px 0 15px;
