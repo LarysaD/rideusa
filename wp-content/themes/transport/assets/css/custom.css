@@ -6800,3 +6800,10 @@ ul.right {
 .whyUs-list ul li img {
     padding: 0px 10px 0px 10px; 
 }
+
+@media all and (max-width: 600px) {
+    ul.left, ul.right {
+        width: 100%;
+        float: none;
+    }
+}
