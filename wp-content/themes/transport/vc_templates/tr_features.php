@@ -19,14 +19,14 @@ extract(shortcode_atts(array(
         <?php
         $image_details = wp_get_attachment_image_src($feature_one_icon, 'full');
         if (!empty($image_details) && is_array($image_details)):
-            if ($image_details[1] > 58):
+            /*if ($image_details[1] > 58):
                 ?>
                 <i class="icon-ship"><img src="<?php echo apply_filters('transport_image_resize', $image_details[0], '58', '70'); ?>" alt="" title="" /></i>
-            <?php else:
+            <?php else:*/
                 ?>
                 <i class="icon-ship"><img src="<?php echo esc_url($image_details[0]); ?>" alt="" title="" /></i>
             <?php
-            endif;
+            /*endif;*/
         endif;
         ?>
         <div class="tab-text">
