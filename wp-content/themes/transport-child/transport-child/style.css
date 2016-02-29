@@ -33,6 +33,7 @@
 .banner-text.slider-one h2 {
 	line-height: 37px!important;
 	font-size: 33px!important;
+	color: #0084b5;
 }
 
 .faq .head-wrap {
@@ -55,3 +56,8 @@ ul.children {
 p.lastP {
 	padding-bottom: 26px;
 }
+
+a.services-link {
+	background: #f05532!important;
+}
+
