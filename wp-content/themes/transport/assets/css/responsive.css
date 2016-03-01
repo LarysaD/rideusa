@@ -3608,7 +3608,7 @@
 @media all and (max-width: 800px) {
 	.simple-content .content-image {
 		width: 100%;
-		padding-right: 0px!important;
+		/*padding-right: 0px!important;*/
 	}
 	
 	.simple-content .amazing-text .contact-us {
@@ -3617,5 +3617,8 @@
 
 	.banner-image-plane {
 		background-position: 50% 0%!important;
+	}
+	.air-fright-img-part img {
+		margin-bottom: 0!important;
 	}
 }
