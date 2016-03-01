@@ -340,8 +340,10 @@
 	}
 	.banner-image-plane {
 		background-attachment: initial;
-/*		-webkit-background-size: 100%;
-		background-size: 100%;*/
+		background-position: 50% 0%!important;
+	}
+	.copyright {
+		padding-top: 0;
 	}
 
 	/*	Styling For Services Page*/
