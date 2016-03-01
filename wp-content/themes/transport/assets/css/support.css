@@ -1260,10 +1260,7 @@ a:focus, a:active {
     .woocommerce span.onsale {
         left: 16px;
     }
-    .page-template-transport-contact-php .wpcf7-form {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+
     .transport-page-settings-two .services {
         padding-bottom: 30px;
     }
