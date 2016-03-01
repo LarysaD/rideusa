@@ -1,0 +1,55 @@
+input, textarea {
+	width: 65%;
+	border: 1px solid #BCBCBC;
+	outline: none;
+}
+
+.field {
+	margin: 5px 0px;
+}
+
+label {
+	width: 25%;
+	background: #0084B5;
+	color: #FFF;
+	font-size: 14px;
+	margin: 0 5% 0 0;
+}
+input, label, textarea, select {
+	display: inline-block;
+	padding: 5px 15px;
+}
+
+select {
+	max-width: 100%;
+	width: 251px;
+}
+
+.labelAdress {
+	float: left;
+    margin-top: 1px;
+    padding-bottom: 69px;
+}
+.radioButtons input[type="radio"], .radioButtons input[type="radio"] {
+	-webkit-appearance: radio;
+	   -moz-appearance: radio;
+	        appearance: radio;
+}
+
+
+.radioButtons input[type="radio"] {
+	width: auto;
+	text-align: center;
+}
+
+.radioButtons > span {
+	padding: 0 5px;
+}
+
+
+@media all and (max-width: 767px) {
+	label, input {
+		width: 100%;
+		display: block;
+	}
+}
