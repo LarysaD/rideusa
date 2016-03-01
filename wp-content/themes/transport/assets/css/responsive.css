@@ -340,8 +340,8 @@
 	}
 	.banner-image-plane {
 		background-attachment: initial;
-		-webkit-background-size: 100%;
-		background-size: 100%;
+/*		-webkit-background-size: 100%;
+		background-size: 100%;*/
 	}
 
 	/*	Styling For Services Page*/
@@ -3599,5 +3599,18 @@
 @media all and (max-width: 640px) {
 	.wpb_revslider_element.wpb_content_element {
 		display: none;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.simple-content .content-image {
+		width: 100%;
+		padding-right: 0px!important;
+	}
+	.air-fright-img-part img {
+		margin-bottom: 0px!important;
+	}
+	.simple-content .amazing-text .contact-us {
+		margin-bottom: 25px;
 	}
 }
