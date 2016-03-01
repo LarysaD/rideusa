@@ -3600,6 +3600,9 @@
 	.wpb_revslider_element.wpb_content_element {
 		display: none;
 	}
+	.banner-image-plane {
+		background-position: 0% 0%!important;
+	}
 }
 
 @media all and (max-width: 800px) {
@@ -3607,10 +3610,12 @@
 		width: 100%;
 		padding-right: 0px!important;
 	}
-	.air-fright-img-part img {
-		margin-bottom: 0px!important;
-	}
+	
 	.simple-content .amazing-text .contact-us {
 		margin-bottom: 25px;
+	}
+
+	.banner-image-plane {
+		background-position: 50% 0%!important;
 	}
 }
