@@ -19,7 +19,7 @@
                 <div class="contact-form-box ">
                     <div class="row">
                        <div class="carrer-form">
-                            <h4>Applicant Information:</h4>
+                            <h4 class="carrersTitle">Applicant Information:</h4>
                            <form action="careersForm.php" method="POST">
                                <div class="field">
                                     <label for="fullName">Full Name</label>
@@ -36,7 +36,7 @@
                                </div>
                                <div class="field">
                                     <label class="labelAdress" for="adress">Adress</label>
-                                   <textarea name="adress" id="adress" rows="5" placeholder="Street Adress, Apartment/Unit, City, State, ZIP Code"></textarea>
+                                   <textarea name="adress" id="adress" rows="4" placeholder="Street Adress, Apartment/Unit, City, State, ZIP Code"></textarea>
                                </div>
                                <div class="field">
                                     <label for="phone">Phone</label>
@@ -93,7 +93,7 @@
                                     <label for="ifConvicted">If Yes, explain</label>
                                    <input type="text" name="ifConvicted" id="ifConvicted">
                                </div>
-                                <h4>Previous Employment:</h4>
+                                <h4 class="carrersTitle">Previous Employment:</h4>
                                <div class="field">
                                     <label for="company">Company</label>
                                    <input type="text" name="company" id="company" placeholder="Company">
@@ -104,7 +104,7 @@
                                </div>
                                 <div class="field">
                                     <label class="labelAdress" for="adressPrevious">Adress</label>
-                                   <textarea name="adressPrevious" id="adressPrevious" rows="5" placeholder="Street Adress, Apartment/Unit, City, State, ZIP Code"></textarea>
+                                   <textarea name="adressPrevious" id="adressPrevious" rows="4" placeholder="Street Adress, Apartment/Unit, City, State, ZIP Code"></textarea>
                                </div>
                                 <div class="field">
                                     <label for="supervisor">Supervisor</label>
@@ -124,8 +124,17 @@
                                </div>
                                 <div class="field">
                                     <label class="labelAdress" for="responsabilities">Responsabilities</label>
-                                   <textarea name="responsabilities" id="responsabilities" rows="5" placeholder="Responsabilities"></textarea>
+                                   <textarea name="responsabilities" id="responsabilities" rows="4" placeholder="Responsabilities"></textarea>
                                </div>
+                               <div class="field">
+                                    <label class="uploadResume" for="uploadResume">Upload Resume</label>
+                                   <input type="file" name="uploadResume" id="uploadResume" placeholder="Responsabilities">
+                               </div>
+                               <div class="field">
+                                    <label class="uploadDrivingRecord" for="uploadDrivingRecord">Upload Driving Record</label>
+                                   <input type="file" name="uploadDrivingRecord" id="uploadDrivingRecord" placeholder="Responsabilities">
+                               </div>
+                               <input type="submit" value="SUBMIT" id="careersSubmit">
                            </form>
                           
                        </div>

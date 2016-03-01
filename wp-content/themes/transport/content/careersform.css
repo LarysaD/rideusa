@@ -6,6 +6,8 @@ input, textarea {
 
 .field {
 	margin: 5px 0px;
+	display: inline-block;
+    width: 100%;
 }
 
 label {
@@ -14,10 +16,11 @@ label {
 	color: #FFF;
 	font-size: 14px;
 	margin: 0 5% 0 0;
+	float: left;
 }
 input, label, textarea, select {
-	display: inline-block;
-	padding: 5px 15px;
+	padding: 10px 15px;
+	font-size: 14px;
 }
 
 select {
@@ -26,9 +29,14 @@ select {
 }
 
 .labelAdress {
-	float: left;
+	/*float: left;*/
+	display: inline-block;
     margin-top: 1px;
     padding-bottom: 69px;
+}
+
+textarea {
+	display: inline-block;
 }
 .radioButtons input[type="radio"], .radioButtons input[type="radio"] {
 	-webkit-appearance: radio;
@@ -46,6 +54,17 @@ select {
 	padding: 0 5px;
 }
 
+input#careersSubmit {
+	width: 25%;
+	background: #0084B5;
+	color: #fff;
+	margin-bottom: 30px;
+	font-size: 16px;
+	
+}
+h4.carrersTitle {
+	margin: 20px 0px;
+}
 
 @media all and (max-width: 767px) {
 	label, input {
