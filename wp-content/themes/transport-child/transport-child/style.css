@@ -74,10 +74,14 @@ a.services-link {
     	background-position: 65% 0%!important;
    		background-size: cover;
 	}
+
+	.quote .button {
+		margin-top: 50px!important;
+	}
+
+	.service-quote-wrap {
+		margin-top: 0 !important;
+	}
+	
 }
 
-@media all and (max-width: 800px) {
-	.banner-image-plane {
-		background-position: 50% 0%!important;
-	}
-}
