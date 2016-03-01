@@ -78,9 +78,9 @@ a.services-link {
 	.quote .button {
 		margin-top: 50px!important;
 	}
-
-	.service-quote-wrap {
-		margin-top: 0 !important;
+	.page-layout-two .page-layout-two-content ul li {
+		text-indent: -10px;
+		padding: 0px 5px;
 	}
 	
 }
