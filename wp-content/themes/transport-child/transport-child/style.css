@@ -70,4 +70,14 @@ a.services-link {
 	.simple-content .content-image {
 		padding-bottom: 0px !important;
 	}
+	.banner-image-plane {
+    	background-position: 65% 0%!important;
+   		background-size: cover;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.banner-image-plane {
+		background-position: 50% 0%!important;
+	}
 }

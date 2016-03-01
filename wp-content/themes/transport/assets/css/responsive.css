@@ -863,7 +863,7 @@
 		margin-bottom: 15px;
 	}
 	.features-text > p {
-		margin-bottom: 15px !important;
+		margin-bottom: 35px !important;
 	}
 	.custom-quote {
 		padding: 36px 20px 43px 28px;
@@ -3616,9 +3616,7 @@
 		margin-bottom: 35px;
 	}
 
-	.banner-image-plane {
-		background-position: 50% 0%!important;
-	}
+	
 	.air-fright-img-part img {
 		margin-bottom: 0!important;
 	}
