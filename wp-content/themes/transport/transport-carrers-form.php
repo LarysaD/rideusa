@@ -6,10 +6,16 @@
  * @package transport
  * @since transport 1.0.0
  */
+function careersFormScripts() {
+    wp_enqueue_style( 'careers-form', get_template_directory_uri ()."/content/careersform.css" );
+    wp_enqueue_script( 'jqueryValidatioCareers', 'http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js', array(), '', true );
+    wp_enqueue_script( 'jqueryValidatioCustom', get_template_directory_uri ()."/content/careersValidate.js", array(), '', true );
+}
+add_action( 'wp_enqueue_scripts', 'careersFormScripts' );
+
 get_header();
 
 ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri (); ?>/content/careersform.css">
 
 <!--banner Section starts Here -->
 <div class="common-page">

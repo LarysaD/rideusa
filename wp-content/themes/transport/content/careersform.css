@@ -27,9 +27,9 @@ select {
 	width: 100%;
 }
 
-.selectBoxes {
+/*.selectBoxes {
 	margin-right: 105px;
-}
+}*/
 .selectBoxes.last {
 	float: right;
 	margin-right: 0;
@@ -66,43 +66,63 @@ textarea {
 }
 
 input#careersSubmit {
-	width: 25%;
+	width: 23.7%;
 	background: #fff;
 	color: #0084B5;
 	margin-bottom: 30px;
 	font-size: 16px;
 	border: 1px solid #0084B5;
+	font-weight: bold;
+}
+input#careersSubmit:hover {
+	background: #0084B5;
+	color: #fff;
 }
 h4.carrersTitle {
 	margin: 20px 0px;
 }
 
 
+/*  Validation */
+
+label.error {
+	display: none!important;
+}
+label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#convicted-error {
+	display: block!important;
+    background: none;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+}
+textarea.error, select.error {
+	border: 1px solid #ff0000;
+}
+
+
+
 @media all and (max-width: 1024px) {
-	.selectBoxes {
-		margin-right: 87px;
-	}
+
 }
 
-
-@media all and (max-width: 768px) {
-	
-}
-
-
-@media all and (max-width: 767px) {
-	.selectBoxes {
-		margin: 0;
+@media all and (max-width: 991px) {
+	.labelAdress {
+		padding-bottom: 0;
 	}
 	.selectBoxes.last {
 		float: none;
 	}
-	.labelAdress {
-		padding-bottom: 0;
+	label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#convicted-error {
+		left: 40%;
 	}
-	.center {
-		text-align: center;
+	.col-md-9 {
+		padding: 0;
 	}
+}
+
+
+@media all and (max-width: 800px) {
 	input#careersSubmit {
 		width: 100%;
 		margin-top: 10px;
@@ -110,6 +130,29 @@ h4.carrersTitle {
 }
 
 
+@media all and (max-width: 767px) {
+	.selectBoxes {
+		margin: 0;
+	}
+	
+	.labelAdress {
+		padding-bottom: 0;
+	}
+	.center {
+		text-align: center;
+	}
+	
+}
+
+
 .nopad {
+	padding-left: 0px;
+}
+
+.padSelect {
+	padding:0px;
+}
+
+.col-md-9 {
 	padding: 0;
 }
