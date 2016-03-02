@@ -25,6 +25,7 @@ input, label, textarea, select {
 
 select {
 	width: 100%;
+	-webkit-appearance: none; box-shadow: none !important;
 }
 
 /*.selectBoxes {
@@ -112,6 +113,7 @@ textarea.error, select.error {
 	}
 	.selectBoxes.last {
 		float: none;
+		clear: both;
 	}
 	label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#convicted-error, label#contactPreviousSupervisor-error {
 		left: 40%;
