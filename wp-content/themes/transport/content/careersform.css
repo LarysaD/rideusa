@@ -88,7 +88,7 @@ h4.carrersTitle {
 label.error {
 	display: none!important;
 }
-label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#convicted-error {
+label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#convicted-error, label#contactPreviousSupervisor-error {
 	display: block!important;
     background: none;
     color: red;
@@ -113,7 +113,7 @@ textarea.error, select.error {
 	.selectBoxes.last {
 		float: none;
 	}
-	label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#convicted-error {
+	label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#convicted-error, label#contactPreviousSupervisor-error {
 		left: 40%;
 	}
 	

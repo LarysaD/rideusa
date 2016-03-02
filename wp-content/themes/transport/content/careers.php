@@ -174,8 +174,7 @@
                                          <div class="col-md-2  col-xs-12 center nopad">
                                             <input type="radio" name="convicted" value="NO"><span>NO</span>
                                          </div>    
-                                     </div>
-                                     
+                                     </div>     
                                </div>
                                  <div class="field">
                                     <div class="col-md-3 nopad"> 
@@ -291,6 +290,22 @@
                                         <input type="file" name="uploadDrivingRecord" id="uploadDrivingRecord" placeholder="Responsabilities">
                                     </div>
                                </div>
+                                <div class="field radioButtons">
+                                     <div class="col-md-3 nopad"> 
+                                         <label for="contactPreviousSupervisor">May we contact your previous supervisor for a reference?</label>
+                                    </div>
+                                     <div class="col-md-9 radioContainer">
+                                        <div class="col-md-2  col-xs-12 center nopad">
+                                            <input type="radio" name="contactPreviousSupervisor" value="YES"><span>YES</span>
+                                        </div>
+                                         <div class="col-md-2  col-xs-12 center nopad">
+                                            <input type="radio" name="contactPreviousSupervisor" value="NO"><span>NO</span>
+                                         </div>    
+                                     </div>
+                                     
+                               </div>
+                               
+                               
                                <input type="submit" value="SUBMIT" id="careersSubmit">
                            </form>
                           

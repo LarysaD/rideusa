@@ -109,6 +109,9 @@ jQuery(document).ready(function( $ ) {
     		},
     		uploadDrivingRecord: {
     			required: true
+    		},
+    		contactPreviousSupervisor: {
+    			required: true
     		}
 
 
