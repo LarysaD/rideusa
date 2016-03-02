@@ -130,10 +130,10 @@
                                          <label for="ifNoCitizen">If no, are you authorized to work in the U.S.?</label>
                                     </div>
                                     <div class="col-md-9 radioContainer">
-                                        <div class="col-md-2 col-xs-6 col-sm-12 center nopad">
+                                        <div class="col-md-2 col-xs-6  center nopad">
                                             <input type="radio" name="ifNoCitizen" value="YES"><span>YES</span>
                                         </div>
-                                        <div class="col-md-2  col-xs-6 col-sm-12  center nopad">
+                                        <div class="col-md-2  col-xs-6  center nopad">
                                             <input type="radio" name="ifNoCitizen" value="NO"><span>NO</span>
                                         </div>
                                           
@@ -145,11 +145,11 @@
                                             <label for="workedBefore">Have you ever worked for this company?</label>
                                     </div>
                                     <div class="col-md-9 radioContainer">
-                                        <div class="col-md-2  col-xs-6 col-sm-12  center nopad">
+                                        <div class="col-md-2  col-xs-6  center nopad">
                                              <input type="radio" name="workedBefore" value="YES"><span>YES</span>
                                         </div>
                                        
-                                       <div class="col-md-2  col-xs-6 col-sm-12  center nopad">
+                                       <div class="col-md-2  col-xs-6 center nopad">
                                            <input type="radio" name="workedBefore" value="NO"><span>NO</span>
                                        </div>
                                     </div>
@@ -168,10 +168,10 @@
                                          <label for="convicted">Have you ever been convicted of a felony?</label>
                                     </div>
                                      <div class="col-md-9 radioContainer">
-                                        <div class="col-md-2  col-xs-6 col-sm-12  center nopad">
+                                        <div class="col-md-2  col-xs-6  center nopad">
                                             <input type="radio" name="convicted" value="YES"><span>YES</span>
                                         </div>
-                                         <div class="col-md-2  col-xs-6 col-sm-12 center nopad">
+                                         <div class="col-md-2  col-xs-6 center nopad">
                                             <input type="radio" name="convicted" value="NO"><span>NO</span>
                                          </div>    
                                      </div>     
@@ -287,7 +287,7 @@
                                          <label class="uploadDrivingRecord" for="uploadDrivingRecord">Upload Driving Record (*max 8MB)</label>
                                     </div>
                                     <div class="col-md-9">
-                                        <input type="file" name="uploadDrivingRecord" id="uploadDrivingRecord" placeholder="Responsabilities">
+                                        <input type="file" name="uploadDrivingRecord" id="uploadDrivingRecord">
                                     </div>
                                </div>
                                 <div class="field radioButtons">
