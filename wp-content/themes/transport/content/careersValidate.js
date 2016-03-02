@@ -50,8 +50,6 @@ $.validator.addMethod('positiveNumber',
     		phone: {
     			required: true,
     			phoneUS: true,
-    			minlentgh: 10,
-    			maxlength: 10
     		},
     		emailAdress: {
     			required: true
