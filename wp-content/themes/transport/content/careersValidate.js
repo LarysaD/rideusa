@@ -6,7 +6,7 @@ jQuery(document).ready(function( $ ) {
 
 
     // add the rule here
- $.validator.addMethod("valueNotEquals", function(value, element, arg){
+$.validator.addMethod("valueNotEquals", function(value, element, arg){
   return arg != value;
  }, "Value must not equal arg.");
  	// input file size limit
@@ -16,6 +16,19 @@ $.validator.addMethod('filesize', function(value, element, param) {
     // value = value of the element (file name)
     return this.optional(element) || (element.files[0].size <= param) 
 });
+
+$.validator.addMethod("phoneUS", function(phone_number, element) {
+    phone_number = phone_number.replace(/\s+/g, "");
+    return this.optional(element) || phone_number.length > 9 && 
+    phone_number.match(/^(\+?1-?)?(\([2-9]\d{2}\)|[2-9]\d{2})-?[2-9]\d{2}-?\d{4}$/);
+}, "Please specify a valid phone number");
+
+$.validator.addMethod('positiveNumber',
+    function (value) { 
+        return Number(value) > 0;
+    }, 'Enter a positive number.');
+
+
     $("#careersForm").validate({
     	rules: {
     		fullName: {
@@ -35,7 +48,10 @@ $.validator.addMethod('filesize', function(value, element, param) {
     			required: true
     		},
     		phone: {
-    			required: true
+    			required: true,
+    			phoneUS: true,
+    			minlentgh: 10,
+    			maxlength: 10
     		},
     		emailAdress: {
     			required: true
@@ -50,10 +66,12 @@ $.validator.addMethod('filesize', function(value, element, param) {
     			valueNotEquals: "default"
     		},
     		daysAvailable: {
-    			required: true
+    			required: true,
+    			positiveNumber: true
     		},
     		desiredSalary: {
-    			required: true
+    			required: true,
+    			positiveNumber: true
     		},
     		position: {
     			required: true
@@ -92,10 +110,12 @@ $.validator.addMethod('filesize', function(value, element, param) {
     			required: true
     		},
     		startingSalary: {
-    			required: true
+    			required: true,
+    			positiveNumber: true
     		},
     		endingSalary: {
-    			required: true
+    			required: true,
+    			positiveNumber: true
     		},
     		responsabilities: {
     			required: true
