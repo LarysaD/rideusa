@@ -32,11 +32,10 @@
         </div>
                 <div class="info">
                     <h3><strong>Best Ride USA</h3>
-                        <p>303 Wyman St.</p>
-                        <p>Suite 300</p>
-                        <p>Waltham, MA 02451</p>
+                        <p>3 Allied Drive, # 108</p>
+                        <p>Dedham, MA 02026</p>
 
-                       <p> Phone: <a href="tel:(617)923-1377">(617) 923-1377</a></p>
+                       <p> Phone: <a href="tel:(844)8095063">(844) 809.5063</a></p>
                     </div> 
     </div>
 </div>

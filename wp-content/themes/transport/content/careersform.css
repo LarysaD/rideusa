@@ -25,7 +25,7 @@ input, label, textarea, select {
 
 select {
 	max-width: 100%;
-	width: 245px;
+	width: 251.5px;
 }
 
 .labelAdress {
@@ -56,18 +56,33 @@ textarea {
 
 input#careersSubmit {
 	width: 25%;
-	background: #0084B5;
-	color: #fff;
+	background: #fff;
+	color: #0084B5;
 	margin-bottom: 30px;
 	font-size: 16px;
-	
+	border: 1px solid #0084B5;
 }
 h4.carrersTitle {
 	margin: 20px 0px;
 }
 
+
+@media all and (max-width: 1024px) {
+	select {
+		width: 208.5px;
+	}
+}
+
+
+@media all and (max-width: 768px) {
+	select {
+		width: 160.5px;
+	}
+}
+
+
 @media all and (max-width: 767px) {
-	label, input {
+	label, input, textarea {
 		width: 100%;
 		display: block;
 	}
