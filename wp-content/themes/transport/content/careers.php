@@ -305,8 +305,10 @@
                                      
                                </div>
                                
-                               
-                               <input type="submit" value="SUBMIT" id="careersSubmit">
+                               <div class="submitButton">
+                                    <input type="submit" value="SUBMIT" id="careersSubmit">
+                               </div>
+                              
                            </form>
                           
                        </div>
