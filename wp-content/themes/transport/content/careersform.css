@@ -21,6 +21,9 @@ label {
 input, label, textarea, select {
 	padding: 10px 15px;
 	font-size: 14px;
+	-webkit-appearance: none;
+	-webkit-border-radius:0; 
+
 }
 
 select{
