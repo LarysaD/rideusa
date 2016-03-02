@@ -1,8 +1,8 @@
 // JQuery Validation for Application form from Careers Page
 
 jQuery(document).ready(function( $ ) {
-    // add the rule here
-	
+
+
 
 
     // add the rule here
