@@ -1,5 +1,5 @@
 input, textarea {
-	width: 65%;
+	width: 100%;
 	border: 1px solid #BCBCBC;
 	outline: none;
 }
@@ -11,7 +11,7 @@ input, textarea {
 }
 
 label {
-	width: 25%;
+	width: 100%;
 	background: #0084B5;
 	color: #FFF;
 	font-size: 14px;
@@ -24,16 +24,23 @@ input, label, textarea, select {
 }
 
 select {
-	max-width: 100%;
-	width: 251.5px;
+	width: 100%;
 }
 
+.selectBoxes {
+	margin-right: 105px;
+}
+.selectBoxes.last {
+	float: right;
+	margin-right: 0;
+}
 .labelAdress {
 	/*float: left;*/
 	display: inline-block;
     margin-top: 1px;
     padding-bottom: 69px;
 }
+
 
 textarea {
 	display: inline-block;
@@ -50,8 +57,12 @@ textarea {
 	text-align: center;
 }
 
-.radioButtons > span {
+.radioContainer  span {
 	padding: 0 5px;
+}
+
+.radioContainer {
+	/*text-align: center;*/
 }
 
 input#careersSubmit {
@@ -68,22 +79,37 @@ h4.carrersTitle {
 
 
 @media all and (max-width: 1024px) {
-	select {
-		width: 208.5px;
+	.selectBoxes {
+		margin-right: 87px;
 	}
 }
 
 
 @media all and (max-width: 768px) {
-	select {
-		width: 160.5px;
-	}
+	
 }
 
 
 @media all and (max-width: 767px) {
-	label, input, textarea {
-		width: 100%;
-		display: block;
+	.selectBoxes {
+		margin: 0;
 	}
+	.selectBoxes.last {
+		float: none;
+	}
+	.labelAdress {
+		padding-bottom: 0;
+	}
+	.center {
+		text-align: center;
+	}
+	input#careersSubmit {
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+
+
+.nopad {
+	padding: 0;
 }
