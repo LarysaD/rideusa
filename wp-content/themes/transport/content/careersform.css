@@ -116,9 +116,7 @@ textarea.error, select.error {
 	label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#convicted-error {
 		left: 40%;
 	}
-	.col-md-9 {
-		padding: 0;
-	}
+	
 }
 
 
@@ -145,14 +143,17 @@ textarea.error, select.error {
 }
 
 
-.nopad {
-	padding-left: 0px;
-}
+
 
 .padSelect {
 	padding:0px;
 }
 
-.col-md-9 {
-	padding: 0;
+@media all and (min-width: 991px) {
+	.col-md-9 {
+		padding: 0;
+	}
+	.nopad {
+		padding-left: 0;
+	}
 }
