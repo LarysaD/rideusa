@@ -9,8 +9,13 @@ jQuery(document).ready(function( $ ) {
  $.validator.addMethod("valueNotEquals", function(value, element, arg){
   return arg != value;
  }, "Value must not equal arg.");
-
-
+ 	// input file size limit
+$.validator.addMethod('filesize', function(value, element, param) {
+    // param = size (in bytes) 
+    // element = element to validate (<input>)
+    // value = value of the element (file name)
+    return this.optional(element) || (element.files[0].size <= param) 
+});
     $("#careersForm").validate({
     	rules: {
     		fullName: {
@@ -105,10 +110,12 @@ jQuery(document).ready(function( $ ) {
     			required: true
     		},
     		uploadResume: {
-    			required: true
+    			required: true, 
+    			filesize: 8388608 
     		},
     		uploadDrivingRecord: {
-    			required: true
+    			required: true,
+    			filesize: 8388608 
     		},
     		contactPreviousSupervisor: {
     			required: true
