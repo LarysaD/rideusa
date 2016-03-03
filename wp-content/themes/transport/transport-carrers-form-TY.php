@@ -11,10 +11,6 @@
 
 
 if( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['careersSubmit'] ) && $_POST['careersSubmit'] == 'SUBMIT' ){
-    /*echo "<pre>";
-    print_r($_FILES);
-    exit;
-*/
 
     $emailTo = 'developer.insegment@gmail.com';
 
@@ -30,47 +26,45 @@ if( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['careersSubmit'] ) &&
 
 
     $message .= "<h4>APPLICANT INFORMATION:</h4>";
-    $message .= "Full Name: ". $_POST['fullName']."\n";
-    $message .= "Date (m/d/y): ".$_POST['dateMonth']."/".$_POST['dateDay']."/".$_POST['dateYear']."\n";
-    $message .= "Address: ". $_POST['adress']."\n";
-    $message .= "Phone: ". $_POST['phone']."\n";
-    $message .= "Email: ". $_POST['emailAdress']."\n";
-    $message .= "Date Available (m/d/y): ".$_POST['dateMonthAvailable']."/".$_POST['dateDayAvailable']."/".$_POST['dateYearAvailable']."\n";
-    $message .= "Days Available: ". $_POST['daysAvailable']."\n";
-    $message .= "Desired Salary: ". $_POST['desiredSalary']."\n";
-    $message .= "Position Aplied for: ". $_POST['position']."\n";
-    $message .= "Are you a citizen of the United States?: ". $_POST['usCitizen']."\n";
-    $message .= "If no, are you authorized to work in the U.S.?: ". $_POST['ifNoCitizen']."\n";
-    $message .= "Have you ever worked for this company?: ". $_POST['workedBefore']."\n";
-    $message .= "If Yes, When?: ". $_POST['ifYes']."\n";
-    $message .= "Have you ever been convicted of a felony?: ". $_POST['convicted']."\n";
-    $message .= "If Yes, explain: ". $_POST['ifConvicted']."\n";
+    $message .= "Full Name: ". $_POST['fullName']."<br/>";
+    $message .= "Date (m/d/y): ".$_POST['dateMonth']."/".$_POST['dateDay']."/".$_POST['dateYear']."<br/>";
+    $message .= "Address: ". $_POST['adress']."<br/>";
+    $message .= "Phone: ". $_POST['phone']."<br/>";
+    $message .= "Email: ". $_POST['emailAdress']."<br/>";
+    $message .= "Date Available (m/d/y): ".$_POST['dateMonthAvailable']."/".$_POST['dateDayAvailable']."/".$_POST['dateYearAvailable']."<br/>";
+    $message .= "Days Available: ". $_POST['daysAvailable']."<br/>";
+    $message .= "Desired Salary: ". $_POST['desiredSalary']."<br/>";
+    $message .= "Position Aplied for: ". $_POST['position']."<br/>";
+    $message .= "Are you a citizen of the United States?: ". $_POST['usCitizen']."<br/>";
+    $message .= "If no, are you authorized to work in the U.S.?: ". $_POST['ifNoCitizen']."<br/>";
+    $message .= "Have you ever worked for this company?: ". $_POST['workedBefore']."<br/>";
+    $message .= "If Yes, When?: ". $_POST['ifYes']."<br/>";
+    $message .= "Have you ever been convicted of a felony?: ". $_POST['convicted']."<br/>";
+    $message .= "If Yes, explain: ". $_POST['ifConvicted']."<br/>";
 
     $message .= "<h4>APPLICANT INFORMATION:</h4>";
-    $message .= "Company: ". $_POST['company']."\n";
-    $message .= "Phone: ". $_POST['phonePrevious']."\n";
-    $message .= "Address: ". $_POST['adressPrevious']."\n";
-    $message .= "Supervisor: ". $_POST['supervisor']."\n";
-    $message .= "Job Title: ". $_POST['jobTitle']."\n";
-    $message .= "Starting Salary: ". $_POST['startingSalary']."\n";
-    $message .= "Ending Salary: ". $_POST['endingSalary']."\n";
-    $message .= "Responsabilities: ". $_POST['responsabilities']."\n";
-    $message .= "From: ". $_POST['from']."\n";
-    $message .= "To: ". $_POST['to']."\n";
-    $message .= "Reason for Leaving: ". $_POST['reasonForLeaving']."\n";
-    $message .= "May we contact your previous supervisor for a reference?: ". $_POST['contactPreviousSupervisor']."\n";
+    $message .= "Company: ". $_POST['company']."<br/>";
+    $message .= "Phone: ". $_POST['phonePrevious']."<br/>";
+    $message .= "Address: ". $_POST['adressPrevious']."<br/>";
+    $message .= "Supervisor: ". $_POST['supervisor']."<br/>";
+    $message .= "Job Title: ". $_POST['jobTitle']."<br/>";
+    $message .= "Starting Salary: ". $_POST['startingSalary']."<br/>";
+    $message .= "Ending Salary: ". $_POST['endingSalary']."<br/>";
+    $message .= "Responsabilities: ". $_POST['responsabilities']."<br/>";
+    $message .= "From: ". $_POST['from']."<br/>";
+    $message .= "To: ". $_POST['to']."<br/>";
+    $message .= "Reason for Leaving: ". $_POST['reasonForLeaving']."<br/>";
+    $message .= "May we contact your previous supervisor for a reference?: ". $_POST['contactPreviousSupervisor']."<br/>";
 
     $message .= "<br/><br/>";
     $message .= "Have a nice day,<br/>";
     $subject = "Application Form submission.";
 
 
-        move_uploaded_file($_FILES["uploadResume"]["tmp_name"],WP_CONTENT_DIR .'/uploads/'.basename($_FILES['uploadResume']['name']));
-        move_uploaded_file($_FILES["uploadDrivingRecord"]["tmp_name"],WP_CONTENT_DIR .'/uploads/'.basename($_FILES['uploadDrivingRecord']['name']));
+    move_uploaded_file($_FILES["uploadResume"]["tmp_name"],WP_CONTENT_DIR .'/uploads/'.basename($_FILES['uploadResume']['name']));
+    move_uploaded_file($_FILES["uploadDrivingRecord"]["tmp_name"],WP_CONTENT_DIR .'/uploads/'.basename($_FILES['uploadDrivingRecord']['name']));
 
-        $attachments = array( WP_CONTENT_DIR ."/uploads/".$_FILES["uploadResume"]["name"], WP_CONTENT_DIR ."/uploads/".$_FILES["uploadDrivingRecord"]["name"]  );
-            //wp_mail($to, $subject, $message, $headers, $attachments);
-    
+    $attachments = array( WP_CONTENT_DIR ."/uploads/".$_FILES["uploadResume"]["name"], WP_CONTENT_DIR ."/uploads/".$_FILES["uploadDrivingRecord"]["name"]  );
 
     wp_mail($emailTo, $subject, $message, $headers, $attachments);
 
