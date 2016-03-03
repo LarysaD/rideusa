@@ -311,9 +311,12 @@
                                     <input type="radio" name="contactPreviousSupervisor" value="NO"><span>NO</span>
                                   </div>    
                                 </div>
-                              </div>                               
-                               <div class="submitButton">
-                                    <input type="submit" name="careersSubmit" value="SUBMIT" id="careersSubmit">
+                              </div>   
+
+                               <div class="field">
+                                    <div class="col-md-3 nopad">
+                                         <input type="submit" name="careersSubmit" value="SUBMIT" id="careersSubmit">
+                                    </div>
                                </div>
                            </form>
                        </div>

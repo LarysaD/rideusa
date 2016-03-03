@@ -74,7 +74,7 @@ textarea {
 }
 
 input#careersSubmit {
-	width: 23.7%;
+	/* width: 23.7%; */
 	background: #fff;
 	color: #0084B5;
 	margin-bottom: 30px;
@@ -151,13 +151,13 @@ input.upload.error {
 
 @media all and (max-width: 800px) {
 	input#careersSubmit {
-		width: 100%;
+		/* width: 100%; */
 		margin-top: 10px;
 	}
-	.submitButton {
+	/* .submitButton {
 		width: 95%;
 		margin: 0 auto;
-	}
+	} */
 }
 
 
