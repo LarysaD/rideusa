@@ -104,6 +104,21 @@ label#usCitizen-error, label#ifNoCitizen-error, label#workedBefore-error, label#
     position: absolute;
     left: 50%;
 }
+
+label#uploadDrivingRecord-error {
+	display: block!important;
+    background: none;
+    color: red;
+    font-size: 10px;
+}
+
+label#uploadResume-error {
+	display: block!important;
+    background: none;
+    color: red;
+    font-size: 10px;
+}
+
 textarea.error, select.error {
 	border: 1px solid #ff0000;
 }
@@ -111,6 +126,9 @@ textarea.error, select.error {
 	border: 1px solid #ff0000;
 }
 
+input.upload.error {
+	border: 1px solid red;
+}
 
 @media all and (max-width: 1024px) {
 

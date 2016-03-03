@@ -279,8 +279,13 @@
                                         <label class="uploadResume" for="uploadResume">Upload Resume (*max 8MB)</label>
                                     </div>
                                     <div class="col-md-9">
-                                         <input type="file" name="uploadResume" id="uploadResume" placeholder="Responsabilities">
+                                         <div class="browse-wrap">
+                                              <div class="title">Choose a file to upload</div>
+                                              <input type="file" name="uploadResume" id="uploadResume" title="Choose a file to upload" class="upload">
+                                        </div>  
+                                        <span class="upload-path" id="uploadFileName"></span>
                                     </div> 
+                                        <span class="upload-path" id="uploadFileName"></span>
                                </div>
                                <div class="field">
                                     <div class="col-md-3 nopad">
@@ -288,10 +293,11 @@
                                     </div>
                                     <div class="col-md-9">
                                         <div class="browse-wrap">
-                                         <div class="title">Choose a file to upload</div>
-                                        <input type="file" name="uploadDrivingRecord" id="uploadDrivingRecord" title="Choose a file to upload" class="upload">
+                                             <div class="title">Choose a file to upload</div>
+                                            <input type="file" name="uploadDrivingRecord" id="uploadDrivingRecord" title="Choose a file to upload" class="upload">
                                         </div>
-                                   <span class="upload-path"></span>
+                                        <span class="upload-path" id="uploadDrivingFileName"></span>
+                                  </div>
                                </div>
                                 <div class="field radioButtons">
                                      <div class="col-md-3 nopad"> 

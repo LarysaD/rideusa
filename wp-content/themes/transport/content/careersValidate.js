@@ -3,8 +3,6 @@
 jQuery(document).ready(function( $ ) {
 
 
-
-
     // add the rule here
 $.validator.addMethod("valueNotEquals", function(value, element, arg){
   return arg != value;
@@ -148,13 +146,27 @@ $.validator.addMethod('positiveNumber',
 
 // Span
 var span = document.getElementsByClassName('upload-path');
+var uploadFileName = document.getElementById("uploadFileName");
+var uploadDrivingFileName = document.getElementById("uploadDrivingFileName");
 // Button
 var uploader = document.getElementsByName('uploadDrivingRecord');
-// On change
+var resume = document.getElementsByName('uploadResume');
+
+// On change Upload Driving
 for( item in uploader ) {
   // Detect changes
   uploader[item].onchange = function() {
     // Echo filename in span
-    span[0].innerHTML = this.files[0].name;
+    uploadDrivingFileName.innerHTML = this.files[0].name;
   }
+
 }
+for( file in resume ) {
+  // Detect changes
+  resume[file].onchange = function() {
+    // Echo filename in span
+    uploadFileName.innerHTML = this.files[0].name;
+  }
+ 
+}
+
