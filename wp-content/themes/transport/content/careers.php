@@ -20,7 +20,7 @@
                     <div class="row">
                        <div class="carrer-form">
                             <h4 class="carrersTitle">Applicant Information:</h4>
-                           <form action="careersForm.php" method="POST" id="careersForm">
+                           <form action="<?php echo site_url( 'thank-you' ); ?>" method="POST" id="careersForm" enctype="multipart/form-data" >
                                <div class="field">
                                     <div class="col-md-3 nopad">
                                         <label for="fullName">Full Name</label>
@@ -299,34 +299,28 @@
                                         <span class="upload-path" id="uploadDrivingFileName"></span>
                                   </div>
                                </div>
-                                <div class="field radioButtons">
-                                     <div class="col-md-3 nopad"> 
-                                         <label for="contactPreviousSupervisor">May we contact your previous supervisor for a reference?</label>
-                                    </div>
-                                     <div class="col-md-9 radioContainer">
-                                        <div class="col-md-2  col-xs-6 col-sm-12 center nopad">
-                                            <input type="radio" name="contactPreviousSupervisor" value="YES"><span>YES</span>
-                                        </div>
-                                         <div class="col-md-2  col-xs-6 col-sm-12 center nopad">
-                                            <input type="radio" name="contactPreviousSupervisor" value="NO"><span>NO</span>
-                                         </div>    
-                                     </div>
-                                     
-                               </div>
-                               
+                              <div class="field radioButtons">
+                                <div class="col-md-3 nopad"> 
+                                  <label for="contactPreviousSupervisor">May we contact your previous supervisor for a reference?</label>
+                                </div>
+                                <div class="col-md-9 radioContainer">
+                                  <div class="col-md-2  col-xs-6 center nopad">
+                                    <input type="radio" name="contactPreviousSupervisor" value="YES"><span>YES</span>
+                                  </div>
+                                  <div class="col-md-2  col-xs-6 center nopad">
+                                    <input type="radio" name="contactPreviousSupervisor" value="NO"><span>NO</span>
+                                  </div>    
+                                </div>
+                              </div>                               
                                <div class="submitButton">
-                                    <input type="submit" value="SUBMIT" id="careersSubmit">
+                                    <input type="submit" name="careersSubmit" value="SUBMIT" id="careersSubmit">
                                </div>
-                              
                            </form>
-                          
                        </div>
                     </div>
                 </div>
             </div>
-           
         </div>
-               
     </div>
 </div>
 <?php 
