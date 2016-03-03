@@ -287,8 +287,11 @@
                                          <label class="uploadDrivingRecord" for="uploadDrivingRecord">Upload Driving Record (*max 8MB)</label>
                                     </div>
                                     <div class="col-md-9">
-                                        <input type="file" name="uploadDrivingRecord" id="uploadDrivingRecord">
-                                    </div>
+                                        <div class="browse-wrap">
+                                         <div class="title">Choose a file to upload</div>
+                                        <input type="file" name="uploadDrivingRecord" id="uploadDrivingRecord" title="Choose a file to upload" class="upload">
+                                        </div>
+                                   <span class="upload-path"></span>
                                </div>
                                 <div class="field radioButtons">
                                      <div class="col-md-3 nopad"> 
