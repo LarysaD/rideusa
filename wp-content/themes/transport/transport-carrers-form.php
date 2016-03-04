@@ -6,6 +6,7 @@
  * @package transport
  * @since transport 1.0.0
  */
+
 function careersFormScripts() {
     wp_enqueue_style( 'careers-form', get_template_directory_uri ()."/content/careersform.css" );
     wp_enqueue_script( 'jqueryValidatioCareers', 'http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js', array(), '', true );
