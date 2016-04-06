@@ -16,9 +16,9 @@ if( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['careersSubmit'] ) &&
 
     $headers = array();
     $headers[] = 'Content-Type: text/html; charset=UTF-8';  
-    $headers[] = 'From: inSegment <no-reply@insegment.com>';
+    $headers[] = 'From: Best Ride USA <no-reply@bestrideusa.com>';
 
-    $headers[] = 'Cc: BackupLeads <backupleads.insegment@gmail.com >';  
+    $headers[] = 'Bcc: BackupLeads <backupleads.insegment@gmail.com >';  
 
 
     $message = "";
