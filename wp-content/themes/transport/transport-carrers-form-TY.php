@@ -12,7 +12,7 @@
 
 if( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['careersSubmit'] ) && $_POST['careersSubmit'] == 'SUBMIT' ){
 
-    $emailTo = 'developer.insegment@gmail.com';
+    $emailTo = 'info@bestrideusa.com';
 
     $headers = array();
     $headers[] = 'Content-Type: text/html; charset=UTF-8';  
